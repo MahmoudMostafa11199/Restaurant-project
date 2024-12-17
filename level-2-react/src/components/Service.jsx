@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import DiscountSection from '../components/Services/DiscountSection';
+import TestominalSection from '../components/Services/TestominalSection';
 
 function Service() {
   return (
@@ -115,7 +117,10 @@ function Service() {
           </div>
         </div>
       </div>
+    <DiscountSection/> 
+    <TestominalSection/>
     </section>
+   
   );
 }
 
