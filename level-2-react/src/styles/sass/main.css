@@ -1041,4 +1041,70 @@ iframe {
 
 .service-section {
   padding-block: 6.4rem;
+<<<<<<< HEAD
+}
+
+.blog-content h4,
+.blog-content h6 {
+  font-size: 3.2rem;
+}
+.blog-content .blog-details {
+  margin-bottom: 2.5rem;
+}
+.blog-content .author-details {
+  background-color: #faf4ed;
+  border-left: 2px solid #b28e6a;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.8rem;
+}
+.blog-content .author-details .author-quote {
+  font-size: 1.9rem;
+  color: #535353;
+}
+.blog-content .author-details .author-name {
+  color: #b28e6a;
+}
+.blog-content .blog-summary {
+  margin-bottom: 1.625rem;
+}
+.blog-content .label {
+  color: #000;
+  font-weight: 600;
+}
+.blog-content .popular-tags p {
+  color: #a3a3a3;
+}
+.blog-content .social-media-links .social-link {
+  font-size: 2rem;
+  color: #b28e6a;
+  text-decoration: none;
+  background-color: #faf4ed;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 100%;
+  padding: 8px;
+  margin-right: 0.5rem;
+  transition: 0.3s;
+}
+.blog-content .social-media-links .social-link:hover {
+  background-color: #b28e6a;
+  color: #fff;
+}
+.blog-content .global-experience-title {
+  margin-top: 4.063rem;
+  margin-bottom: 1.25rem;
+}
+.blog-content .global-visit-images .image-container img {
+  border-radius: 5px;
+}
+.blog-content .global-experience-summary {
+  margin-bottom: 1.25rem;
+  margin-top: 1rem;
+}
+.blog-content .key-points-list {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+=======
+>>>>>>> 8f39020a5ff1c1d1020f5c4748bef4ebafa14976
 }/*# sourceMappingURL=main.css.map */
