@@ -5,6 +5,8 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import Button from '../components/Button';
 import Service from '../components/Service';
 import IconSlider from '../components/IconSlider';
+import { Counter } from "../components/AboutUs/Counter";
+import { TableReservation } from "../components/AboutUs/TableReservation";
 
 function About() {
   return (
@@ -89,7 +91,10 @@ function About() {
               </Button>
             </div>
           </div>
+          
         </div>
+        <Counter/>
+    <TableReservation/>
       </section>
 
       <Service />

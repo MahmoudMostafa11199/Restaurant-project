@@ -1,0 +1,140 @@
+body {
+    font-family: "Syne", sans-serif;
+  }
+  .heading__primary {
+    font-size: 5.2rem;
+    font-weight: 500;
+    color: #534930;
+    letter-spacing: 2px;
+  }
+  section.blog-bg {
+    background-color: #faf4ed;
+    font-family: "Syne", sans-serif;
+    margin-bottom: 6rem;
+    padding-bottom: 3rem;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+    background-color: #b28e6a;
+    color: #f7f7f7;
+    padding: 0.6rem 2.6rem;
+  }
+  .menu-item {
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 250px;
+    transition: transform 0.3s ease-in-out;
+  }
+.counter{
+    background-color: #534930;
+}
+.counter .counter-box h2{
+    font-size: 5rem;
+}
+  .menu-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+  }
+  .menu-item h3 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    z-index: 2;
+  }
+  .menu-item .btn-4no {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    z-index: 2;
+  }
+  .menu-item:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0.7;
+  }
+  
+  .menu-item:hover img {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+  
+  .custom-style {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 62px;
+    background-color: #b28e6a;
+    border: 1px solid #b28e6a;
+    color: #ffffff;
+    padding: 20px 39px 20px 73px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 100px;
+    transition: all 0.5s;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .custom-style::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 56px;
+    height: 56px;
+    background: #fff;
+    border-radius: 50px;
+    transition: width 0.2s ease;
+    z-index: 1;
+  }
+  .custom-style::after {
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b28e6a;
+    font-size: 18px;
+    z-index: 2;
+  }
+  .custom-style span {
+    position: relative;
+    z-index: 3;
+    color: #534930;
+  }
+  
+  /* Hover styles */
+  .hover-effect::before {
+    width: calc(100% - 6px);
+  }
+  
