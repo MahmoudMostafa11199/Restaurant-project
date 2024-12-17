@@ -1,0 +1,20 @@
+.swiper {
+  width: 100%;
+  padding-block: 6.4rem !important;
+
+  &-wrapper {
+    transition-timing-function: linear !important;
+  }
+
+  &-logo {
+    height: 4rem;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+}

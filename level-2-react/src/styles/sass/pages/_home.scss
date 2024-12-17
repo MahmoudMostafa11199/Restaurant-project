@@ -1,0 +1,80 @@
+.portfolio-section {
+  padding-block: 46px;
+
+  .main-title-two {
+    margin-bottom: 50px;
+    text-align: center;
+
+    @media (max-width: 1199.98px) {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    @media (max-width: 991.98px) {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 767.98px) {
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      text-align: center;
+      color: $secondary-color;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 29.4px;
+      text-transform: capitalize;
+      margin: 0 0 10px 0;
+      font-family: $primary-font;
+
+      @media (max-width: 991.98px) {
+        font-size: 20px;
+        line-height: 24.4px;
+      }
+
+      @media (max-width: 767.98px) {
+        font-size: 18px;
+        line-height: 22.4px;
+      }
+    }
+
+    img {
+      position: absolute;
+      top: 29px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    h2 {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 55.8px;
+      text-align: center;
+      text-transform: capitalize;
+
+      @media (max-width: 767.98px) {
+        font-size: 28px;
+        line-height: 31px;
+      }
+
+      @media (max-width: 767.98px) {
+        font-size: 28px;
+        line-height: 44px;
+      }
+
+      @media (max-width: 991.98px) {
+        font-size: 34px;
+        line-height: 42.8px;
+      }
+
+      @media (max-width: 1199.98px) {
+        font-size: 38px;
+        line-height: 46.8px;
+      }
+    }
+  }
+}

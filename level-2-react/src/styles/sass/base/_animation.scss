@@ -1,0 +1,23 @@
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.animate--right {
+  transform: translateX(100px);
+}
+
+.animate--left {
+  transform: translateX(-100px);
+}
+
+.animate--bottom {
+  transform: translateY(100px);
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0);
+}
