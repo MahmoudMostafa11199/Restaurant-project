@@ -55,7 +55,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <div className="container MainPageSection2">
+      <div className="container MainPageSectionTWO">
       <div className="row Features-Section">
         <div className="Feature col-lg-4 col-md-6 col-sm-12">
           <div className="icon">
