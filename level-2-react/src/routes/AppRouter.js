@@ -24,7 +24,7 @@ function AppRouter() {
           <Route path="contact" element={<Contact />} />
           <Route path="blog" element={<Blog />} />
 
-          {<Route path="blog/:blogId" element={<BlogDetails />} />}
+          {<Route path="blog/blogdetails" element={<BlogDetails />} />}
 
           <Route path="*" element={<PageNotFound />} />
         </Routes>

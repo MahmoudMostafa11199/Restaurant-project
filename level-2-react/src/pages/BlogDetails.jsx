@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faGoogle, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import CommentSection from '../components/BlogDetails/CommentSection';
 
 function BlogDetails() {
     return (
@@ -96,6 +97,8 @@ function BlogDetails() {
                         </div>
 
                         {/* Blog Comments */}
+                        <CommentSection/>
+                        
                     </div>
                     {/* Aside Section */}
                     <div className="col-lg-4 col-md-5"></div>

@@ -1,0 +1,137 @@
+body {
+    font-family: "Syne", sans-serif;
+}
+
+.comments-section {
+    height: 100%;
+    align-items: left;
+    margin-bottom: 3%;
+}
+
+.comment img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.comment h6 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.comments-section h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.comment p {
+    font-size: 2rem;
+    color: #555;
+}
+
+.comment a {
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: #B28E6A;
+    /* Matches the theme */
+    font-weight: bold;
+}
+
+.comment a:hover {
+    text-decoration: underline;
+}
+
+form .form-control {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #fdf8f5;
+    padding: 1rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+form button {
+    background-color: #B28E6A;
+    border: none;
+    color: white;
+}
+
+form button:hover {
+    background-color: #8c6a4a;
+}
+
+form input {
+    border: #B28E6A;
+
+}
+
+.custom-style {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 62px;
+    background-color: #B28E6A;
+    border: 1px solid #B28E6A;
+    color: #ffffff;
+    padding: 20px 39px 20px 73px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 100px;
+    transition: all 0.5s;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.custom-style::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 56px;
+    height: 56px;
+    background: #fff;
+    border-radius: 50px;
+    transition: width 0.2s ease;
+    z-index: 1;
+}
+
+.custom-style::after {
+    content: '\f061';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ad6a26;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.custom-style span {
+    position: relative;
+    z-index: 3;
+    color: #534930;
+}
+
+/* Hover styles */
+.hover-effect::before {
+    width: calc(100% - 6px);
+}
