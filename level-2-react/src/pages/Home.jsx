@@ -4,16 +4,7 @@ import Portfolio from '../components/Portfolio';
 function Home() {
   return (
     <main className="home">
-      <section className="portfolio-section">
-        <div class="main-title-two position-relative aos-init aos-animate">
-          <h3>Our Popular Foods</h3>
-          <img src="/images/title-border.png" alt="title-border" />
-          <h2>Top Food Menu Selection</h2>
-        </div>
-        <Portfolio />
-      </section>
-      <IconSlider />
-      <section className="baner-header position-relative">
+         <section className="baner-header position-relative">
         <div className="container-fluid">
           <div className="row">
             <div className="food-experinse col-lg-11 col-sm-12">
@@ -137,6 +128,16 @@ function Home() {
         </div>
       </div>
     </div>
+      <section className="portfolio-section">
+        <div class="main-title-two position-relative aos-init aos-animate">
+          <h3>Our Popular Foods</h3>
+          <img src="/images/title-border.png" alt="title-border" />
+          <h2>Top Food Menu Selection</h2>
+        </div>
+        <Portfolio />
+      </section>
+      <IconSlider />
+   
     </main>
   );
 }

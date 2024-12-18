@@ -615,6 +615,92 @@ textarea {
   border-top: 1px solid #b28e6a;
 }
 
+.portfolio-section {
+  padding-block: 46px;
+}
+.portfolio-section .main-title-two {
+  margin-bottom: 50px;
+  text-align: center;
+}
+@media (max-width: 1199.98px) {
+  .portfolio-section .main-title-two {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+@media (max-width: 991.98px) {
+  .portfolio-section .main-title-two {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767.98px) {
+  .portfolio-section .main-title-two {
+    margin-bottom: 30px;
+  }
+}
+.portfolio-section .main-title-two h3 {
+  text-align: center;
+  color: #b28e6a;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29.4px;
+  text-transform: capitalize;
+  margin: 0 0 10px 0;
+  font-family: "DM Sans", sans-serif;
+}
+@media (max-width: 991.98px) {
+  .portfolio-section .main-title-two h3 {
+    font-size: 20px;
+    line-height: 24.4px;
+  }
+}
+@media (max-width: 767.98px) {
+  .portfolio-section .main-title-two h3 {
+    font-size: 18px;
+    line-height: 22.4px;
+  }
+}
+.portfolio-section .main-title-two img {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.portfolio-section .main-title-two h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 55.8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+@media (max-width: 767.98px) {
+  .portfolio-section .main-title-two h2 {
+    font-size: 28px;
+    line-height: 31px;
+  }
+}
+@media (max-width: 767.98px) {
+  .portfolio-section .main-title-two h2 {
+    font-size: 28px;
+    line-height: 44px;
+  }
+}
+@media (max-width: 991.98px) {
+  .portfolio-section .main-title-two h2 {
+    font-size: 34px;
+    line-height: 42.8px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .portfolio-section .main-title-two h2 {
+    font-size: 38px;
+    line-height: 46.8px;
+  }
+}
+
 .baner-header {
   margin-top: 2rem;
 }
@@ -837,92 +923,6 @@ textarea {
 .baners-Section .WatermarkFood img {
   width: 8rem;
   height: 8rem;
-}
-
-.portfolio-section {
-  padding-block: 46px;
-}
-.portfolio-section .main-title-two {
-  margin-bottom: 50px;
-  text-align: center;
-}
-@media (max-width: 1199.98px) {
-  .portfolio-section .main-title-two {
-    margin-bottom: 50px;
-    text-align: center;
-  }
-}
-@media (max-width: 991.98px) {
-  .portfolio-section .main-title-two {
-    margin-bottom: 40px;
-  }
-}
-@media (max-width: 767.98px) {
-  .portfolio-section .main-title-two {
-    margin-bottom: 30px;
-  }
-}
-.portfolio-section .main-title-two h3 {
-  text-align: center;
-  color: #b28e6a;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 29.4px;
-  text-transform: capitalize;
-  margin: 0 0 10px 0;
-  font-family: "DM Sans", sans-serif;
-}
-@media (max-width: 991.98px) {
-  .portfolio-section .main-title-two h3 {
-    font-size: 20px;
-    line-height: 24.4px;
-  }
-}
-@media (max-width: 767.98px) {
-  .portfolio-section .main-title-two h3 {
-    font-size: 18px;
-    line-height: 22.4px;
-  }
-}
-.portfolio-section .main-title-two img {
-  position: absolute;
-  top: 29px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-}
-.portfolio-section .main-title-two h2 {
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 55.8px;
-  text-align: center;
-  text-transform: capitalize;
-}
-@media (max-width: 767.98px) {
-  .portfolio-section .main-title-two h2 {
-    font-size: 28px;
-    line-height: 31px;
-  }
-}
-@media (max-width: 767.98px) {
-  .portfolio-section .main-title-two h2 {
-    font-size: 28px;
-    line-height: 44px;
-  }
-}
-@media (max-width: 991.98px) {
-  .portfolio-section .main-title-two h2 {
-    font-size: 34px;
-    line-height: 42.8px;
-  }
-}
-@media (max-width: 1199.98px) {
-  .portfolio-section .main-title-two h2 {
-    font-size: 38px;
-    line-height: 46.8px;
-  }
 }
 
 .about .about-section {
