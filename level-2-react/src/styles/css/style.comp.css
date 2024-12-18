@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap");
 * {
   box-sizing: border-box;
@@ -698,6 +699,223 @@ textarea {
     font-size: 38px;
     line-height: 46.8px;
   }
+}
+
+.baner-header .food-experinse .hero .hero-Heading {
+  background-color: #534930;
+  color: white;
+  padding-left: 19.2rem;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .sub-content {
+  margin-top: 4.64rem;
+  margin-left: 5px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis h1 {
+  font-size: 4.96rem;
+  font-weight: 400;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .order-Now a {
+  color: white;
+  margin-left: 1.6rem;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .order-Now i {
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  background-color: white;
+  padding: 1.6rem;
+  width: 4.8rem;
+  color: #b28e6a;
+  border-radius: 50%;
+  margin: 0;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .order-Now .primary-btn {
+  position: relative;
+  border-radius: 3.2rem;
+  padding: 1.4rem;
+  width: 19.2rem;
+  outline: none;
+  border: none;
+  background-color: #b28e6a;
+  font-size: 1.76rem;
+  text-transform: capitalize;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .arrowVector {
+  width: 17.6rem;
+  margin-left: 4.8rem;
+}
+@media (max-width: 1200px) {
+  .baner-header .food-experinse .hero .hero-Heading {
+    font-size: 1.6rem;
+    padding-left: 4.8rem;
+    text-align: center;
+    height: 60.8rem;
+    width: 100%;
+  }
+  .baner-header .food-experinse .hero .hero-Heading .hero-content {
+    text-align: center;
+    /* لتوسيط النص أيضًا */
+  }
+  .baner-header .food-experinse .hero .hero-Heading .arrowVector {
+    display: none;
+  }
+}
+.baner-header .food-experinse .hero .hero-baner {
+  background: linear-gradient(to right, #534930 50%, transparent 50%);
+}
+.baner-header .food-experinse .hero .hero-baner img {
+  width: 44.8rem;
+  height: 44.8rem;
+  animation: rotateDish 60s linear infinite;
+}
+@keyframes rotateDish {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 1200px) {
+  .baner-header .food-experinse .hero .hero-baner {
+    transition: 1s ease-in-out all;
+    background: transparent;
+    position: absolute;
+    top: 100%;
+    /* يتحرك الطبق نحو الأسفل */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* لجعل الطبق في المنتصف تمامًا */
+  }
+  .baner-header .food-experinse .hero .hero-baner img {
+    width: 32rem;
+    height: 32rem;
+    animation: rotateDish 60s linear infinite;
+  }
+  .baner-header .food-experinse .hero .hero-baner .hero-content {
+    text-align: center;
+    /* لتوسيط النص أيضًا */
+  }
+}
+.baner-header .sochila {
+  margin-top: 8rem;
+  padding-left: 3.8rem;
+}
+.baner-header .sochila img {
+  display: block;
+  margin-bottom: 6.4rem;
+}
+@media (max-width: 992px) {
+  .baner-header .sochila {
+    display: none;
+  }
+}
+.baner-header .dot-vector-one {
+  position: absolute;
+  top: 8rem;
+  left: 9.6rem;
+}
+.baner-header .dot-vector-two {
+  position: absolute;
+  bottom: 6.4rem;
+  left: 16rem;
+}
+.baner-header .dot-vector-three {
+  position: absolute;
+  bottom: 12.8rem;
+  left: 51.2rem;
+}
+.baner-header .dot-vector-four {
+  position: absolute;
+  bottom: 38.4rem;
+  left: 51.2rem;
+}
+@media (max-width: 992px) {
+  .baner-header .dot-vector-one,
+  .baner-header .dot-vector-two,
+  .baner-header .dot-vector-three,
+  .baner-header .dot-vector-four {
+    display: none;
+  }
+}
+
+.Features-Section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  background-color: #f7f7f7;
+  border-radius: 1.6rem;
+  font-size: 1.6rem;
+  margin-top: 11.2rem;
+}
+.Features-Section .Feature {
+  display: flex;
+  padding: 1.6rem;
+  align-items: center;
+}
+.Features-Section .Feature .icon img {
+  width: 6.4rem;
+  height: 6.4rem;
+  margin-right: 1.6rem;
+}
+.Features-Section .Feature .content h3 {
+  margin-block: 0.8rem;
+}
+.Features-Section .Feature .content span {
+  width: min(100%, 1.6rem);
+}
+.Features-Section .Feature .line {
+  border-right: 2px solid #b28e6a;
+  height: 6.4rem;
+}
+.Features-Section .WatermarkFood {
+  position: absolute;
+  bottom: 50%;
+  /* اضبط حسب المكان اللي تريده */
+  left: 50%;
+  /* اضبط حسب المكان اللي تريده */
+  transform: translate(-50%, 50%);
+  /* لتوسيط العلامة المائية بدقة */
+  opacity: 0.2;
+  /* تخفيف العلامة المائية */
+  z-index: -1;
+  /* خلف المحتوى */
+  width: fit-content;
+}
+.Features-Section .WatermarkFood img {
+  width: 9.6rem;
+  height: 9.6rem;
+}
+
+.baners-Section {
+  position: relative;
+  margin-top: 16rem;
+}
+.baners-Section .FirstBaner,
+.baners-Section .secondBaner {
+  padding: 0;
+}
+.baners-Section .FirstBaner .baner-content,
+.baners-Section .secondBaner .baner-content {
+  font-size: 1.8rem;
+  background-color: #f7f7f7;
+  padding: 8.6rem;
+}
+.baners-Section .FirstBaner .baner-info,
+.baners-Section .secondBaner .baner-info {
+  font-weight: 500;
+}
+.baners-Section .WatermarkFood {
+  position: absolute;
+  top: -14.4rem;
+  left: 40%;
+  width: fit-content;
+}
+.baners-Section .WatermarkFood img {
+  width: 12.8rem;
+  height: 12.8rem;
 }
 
 .about .about-section {
