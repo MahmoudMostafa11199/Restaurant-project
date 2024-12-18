@@ -1,0 +1,88 @@
+.blog-content {
+
+    h4,
+    h6 {
+        font-size: 3.2rem;
+    }
+
+    .blog-details {
+        margin-bottom: 2.5rem;
+    }
+
+    .author-details {
+        background-color: $tertiary-color;
+        border-left: 2px solid $secondary-color;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.8rem;
+
+        .author-quote {
+            font-size: 1.9rem;
+            color: $secondary-gray;
+        }
+
+        .author-name {
+            color: $secondary-color;
+        }
+    }
+
+    .blog-summary {
+        margin-bottom: 1.625rem;
+    }
+
+    .label {
+        color: $primary-black;
+        font-weight: 600;
+    }
+
+    .popular-tags {
+        p {
+            color: $tertiary-gray;
+        }
+    }
+
+    .social-media-links {
+        .social-link {
+            font-size: 2rem;
+            color: $secondary-color;
+            text-decoration: none;
+            background-color: $tertiary-color;
+            width: 1.75rem;
+            height: 1.75rem;
+            border-radius: 100%;
+            padding: 8px;
+            margin-right: 0.5rem;
+            transition: 0.3s;
+        }
+
+        .social-link:hover {
+            background-color: $secondary-color;
+            color: $quaternary-color;
+        }
+    }
+
+    .global-experience-title {
+        margin-top: 4.063rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .global-visit-images {
+        .image-container {
+            img {
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .global-experience-summary {
+        margin-bottom: 1.25rem;
+        margin-top: 1rem;
+    }
+
+    .key-points-list {
+        list-style-type: disc;
+        margin-left: 1.5rem;
+        padding-left: 1.5rem;
+
+    }
+
+}
