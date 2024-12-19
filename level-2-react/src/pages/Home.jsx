@@ -101,25 +101,25 @@ function Home() {
             <div className="sochila col-lg-1">
               <LazyLoad height={25}>
                 <img
-                  src="/images/home/icons/social/facebook-icon.png"
+                  src="/images/Home/icons/social/facebook-icon.png"
                   alt="Facbook icon"
                 />
               </LazyLoad>
               <LazyLoad height={25}>
                 <img
-                  src="/images/home/icons/social/google-icon.png"
+                  src="/images/Home/icons/social/google-icon.png"
                   alt="Google icon"
                 />
               </LazyLoad>
               <LazyLoad height={25}>
                 <img
-                  src="/images/home/icons/social/instagram-icon.png"
+                  src="/images/Home/icons/social/instagram-icon.png"
                   alt="Instegram icon"
                 />
               </LazyLoad>
               <LazyLoad height={25}>
                 <img
-                  src="/images/home/icons/social/twitter-icon.png"
+                  src="/images/Home/icons/social/twitter-icon.png"
                   alt="Twitter icon"
                 />
               </LazyLoad>
