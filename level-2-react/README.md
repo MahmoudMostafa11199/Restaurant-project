@@ -5,8 +5,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Mudzzo/Restraunt-project.git
-cd Restraunt-project/level-2-react
+git clone https://github.com/MahmoudMostafa11199/Restaurant-project.git
+cd Restaurant-project/level-2-react
 ```
 
 ### 2. Install Dependencies
