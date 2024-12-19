@@ -37,6 +37,8 @@ const Reservation = () => {
     onSubmit: (values) => {
       console.log('Reservation Details:', values);
       setIsSubmitted(true);
+
+      formik.resetForm();
     },
   });
 
@@ -101,7 +103,7 @@ const Reservation = () => {
 
           {/* Submit Button */}
           <div className="col-md-3 col-6">
-            <Button btnType={'secondary'}>Book a table</Button>
+            <Button btnType={'secondary'} type="submit">Book a table</Button>
           </div>
         </div>
       </form>

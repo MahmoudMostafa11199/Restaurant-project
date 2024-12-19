@@ -9,6 +9,8 @@ import RestaurantVideo from '../components/RestaurantVideo';
 import LatestArticles from '../components/LatestArticles';
 import TestominalSection from '../components/Services/TestominalSection';
 import MapContainer from '../components/Map';
+import Button from '../components/Button';
+
 
 function Home() {
   return (
@@ -39,14 +41,7 @@ function Home() {
                       taste buds.
                     </p>
                     <div className="order-Now" style={{ display: 'inline' }}>
-                      <button className="primary-btn">
-                        <Link to="/">
-                          <span>
-                            <FontAwesomeIcon icon={faAngleRight} />
-                            orderNow
-                          </span>
-                        </Link>
-                      </button>
+                    <Button btnType={'secondary'}>Order Now</Button>
                       <Link to="/">
                         <img src="/images/home/play-btn-vector.png" alt="" />
                       </Link>

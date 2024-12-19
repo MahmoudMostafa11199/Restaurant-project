@@ -336,6 +336,7 @@
     }
 
     .content {
+        padding-inline: 1rem;
       h3 {
         margin-block: 0.8rem;
       }
@@ -354,15 +355,10 @@
   .WatermarkFood {
     position: absolute;
     bottom: 50%;
-    /* اضبط حسب المكان اللي تريده */
     left: 50%;
-    /* اضبط حسب المكان اللي تريده */
     transform: translate(-50%, 50%);
-    /* لتوسيط العلامة المائية بدقة */
     opacity: 0.2;
-    /* تخفيف العلامة المائية */
     z-index: -1;
-    /* خلف المحتوى */
     width: fit-content;
 
     img {
