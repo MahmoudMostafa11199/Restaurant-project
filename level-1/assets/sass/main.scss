@@ -899,3 +899,95 @@
 }
 
 ////////// end about-us-page //////////
+
+/// ////////// start blog details-page //////////
+
+// start blog-paragrapghs-section
+.blog-content {
+
+    h4,
+    h6 {
+        font-size: 2rem;
+    }
+
+    .blog-details {
+        margin-bottom: 2.188rem;
+    }
+
+    .author-details {
+        background-color: var(--tertiary-color);
+        border-left: 2px solid var(--secondary-color);
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.625rem;
+
+        .author-quote {
+            font-size: 1.375rem;
+            color: var(--secondary-gray);
+        }
+
+        .author-name {
+            color: var(--secondary-color);
+        }
+    }
+
+    .blog-summary {
+        margin-bottom: 1.625rem;
+    }
+
+    .label {
+        color: var(--primary-black);
+        font-weight: 600;
+    }
+
+    .popular-tags {
+        p {
+            color: var(--tertiary-gray);
+        }
+    }
+
+    .social-media-links {
+        .social-link {
+            font-size: 1rem;
+            color: var(--secondary-color);
+            text-decoration: none;
+            background-color: var(--tertiary-color);
+            width: 1.75rem;
+            height: 1.75rem;
+            border-radius: 100%;
+            padding: 8px;
+            margin-right: 0.5rem;
+            transition: 0.3s;
+        }
+
+        .social-link:hover {
+            background-color: var(--secondary-color);
+            color: var(--quaternary-color);
+        }
+    }
+
+    .global-experience-title {
+        margin-top: 4.063rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .global-visit-images {
+        .image-container {
+            img {
+                border-radius: 5px;
+            }
+        }
+    }
+    .global-experience-summary{
+        margin-bottom: 1.25rem;
+        margin-top: 1rem;
+    }
+    .key-points-list{
+        list-style-type: disc;
+        padding-left: 0;
+        margin-left: 1rem;
+    }
+}
+
+// end blog-paragrapghs-section
+
+/// /// ////////// end blog details-page //////////
