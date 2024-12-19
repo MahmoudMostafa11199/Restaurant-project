@@ -208,12 +208,16 @@ ul {
   font-family: var(--primary-font);
   font-weight: 600;
   background-color: white;
-  border: 1px solid var(--primary-color); /* Red border by default */
+  border: 1px solid var(--primary-color);
+  /* Red border by default */
   color: var(--primary-color);
-  padding: 10px 20px; /* Adjust the padding to control the size */
+  padding: 10px 20px;
+  /* Adjust the padding to control the size */
   border-radius: 50px;
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: all 0.5s ease; /* Smooth transition for hover effect */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: all 0.5s ease;
+  /* Smooth transition for hover effect */
   margin: 5px;
 }
 .portfolio .portfolio-area li button:hover {
@@ -417,6 +421,250 @@ ul {
   transition: all 0.5s;
 }
 
+.table-reservation {
+  padding-block: 10rem;
+  text-align: center;
+}
+.table-reservation img {
+  position: absolute;
+  top: 12rem;
+  left: 3rem;
+}
+.table-reservation .order {
+  background-image: url("../images/home/composition-traditional-indonesian-bakso.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: gray;
+  transition: 0.3s;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  padding: 6rem 1rem;
+  color: var(--quaternary-color);
+}
+.table-reservation .order h3,
+.table-reservation .order h6 {
+  color: var(--quaternary-color);
+}
+.table-reservation .order h3 {
+  font-size: 3rem;
+}
+.table-reservation .order p {
+  font-family: "DM Sans", sans-serif;
+  padding-inline: 3rem;
+  text-align: center;
+  font-size: 1.25rem;
+  padding-inline: 13rem;
+  line-height: 1.8rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+@media (max-width: 767.98px) {
+  .table-reservation .order p {
+    padding-inline: 0rem;
+  }
+}
+.table-reservation .order .reservation input {
+  width: 100%;
+  padding: 1.25rem 0.7rem 1.25rem 4rem;
+  border: none;
+  outline: none;
+}
+.table-reservation .order .reservation .name {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  color: #212529;
+  font-weight: 500;
+  font-size: 1rem;
+}
+@media (max-width: 767.98px) {
+  .table-reservation .order .reservation input {
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+  }
+  .table-reservation .order .reservation .name {
+    border-radius: 10px;
+  }
+}
+.table-reservation .order:hover {
+  background-color: rgba(128, 128, 128, 0.7019607843);
+  background-blend-mode: multiply;
+}
+.table-reservation .btn {
+  font-size: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--bg-color) !important;
+}
+.table-reservation .btn--secondary {
+  border: none;
+  font-weight: 500;
+  border-radius: 6.25rem;
+  padding: 20px 39px 20px 73px !important;
+  position: relative;
+  z-index: 99;
+}
+.table-reservation .btn--secondary-icon {
+  width: 56px;
+  height: 56px;
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0.3rem, -50%);
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.table-reservation .btn--secondary-text {
+  position: relative;
+  z-index: 999;
+  transition: color 0.3s ease-in-out;
+}
+.table-reservation .btn--secondary:hover, .table-reservation .btn--secondary:active {
+  color: var(--secondary-color);
+}
+.table-reservation .btn--secondary:hover .btn--secondary-icon, .table-reservation .btn--secondary:active .btn--secondary-icon {
+  width: calc(100% - 0.8rem);
+}
+.table-reservation .btn--secondary:hover .btn--secondary-text, .table-reservation .btn--secondary:active .btn--secondary-text {
+  color: var(--primary-color);
+}
+
+.video-section {
+  padding-block: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-section .video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.video-section .video-container .video-thumbnail {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.86);
+}
+.video-section .video-container .video-thumbnail img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  opacity: 0.4;
+}
+.video-section .video-container .custom-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(transparent 60%, #faf4ed 62%);
+  box-shadow: 0px 0px 25px 3px rgba(250, 244, 237, 0.3882352941);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bg-color);
+  font-size: 36px;
+  transition: all 0.3s ease;
+}
+.video-section .video-container .custom-play-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.video-section .video-container iframe {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  display: block;
+}
+
+.latest-articles {
+  padding-block: 6em;
+}
+.latest-articles .main-title {
+  text-align: center;
+}
+.latest-articles .main-title h3 {
+  font-size: 1.375rem;
+  color: var(--secondary-color);
+  margin-bottom: 0;
+}
+.latest-articles .main-title h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.latest-articles .article-one {
+  background-image: url("../images/home/article/articles-img-1.jpg");
+}
+.latest-articles .article-two {
+  background-image: url("../images/home/article/articles-img-2.jpg");
+}
+.latest-articles .article-three {
+  background-image: url("../images/home/article/articles-img-3.jpg");
+}
+.latest-articles .article-four {
+  background-image: url("../images/home/article/articles-img-4.jpg");
+}
+.latest-articles .article-five {
+  background-image: url("../images/home/article/articles-img-5.jpg");
+}
+.latest-articles .article-six {
+  background-image: url("../images/home/article/articles-img-6.jpg");
+}
+.latest-articles .article {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(94, 93, 93, 0.664);
+  background-blend-mode: multiply;
+  background-size: cover;
+  border-radius: 10px;
+}
+.latest-articles .article-box {
+  display: flex;
+  padding: 1.25rem 1.5rem;
+  justify-content: end;
+  align-items: start;
+  flex-direction: column;
+  height: 25rem;
+  color: var(--quaternary-color);
+}
+.latest-articles .article-box .article-tag {
+  color: var(--primary-color);
+  background-color: var(--quaternary-color);
+  padding: 0.4rem 1rem 0.2rem 1rem;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.latest-articles .article-box .article-tag:hover {
+  color: var(--text-hover-color);
+  cursor: pointer;
+}
+.latest-articles .article-box h4 {
+  font-family: "DM sans", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+  color: var(--quaternary-color);
+}
+.latest-articles .article-box .article-title h3 {
+  font-size: 1.3rem;
+  color: var(--quaternary-color);
+  margin-top: 0.5rem;
+}
+
 .about .section-title h4 {
   font-family: var(--secondary-font);
   color: var(--primary-black);
@@ -442,7 +690,8 @@ ul {
 }
 .about .section-title p.underline {
   border: 0;
-  border-bottom: 2px dashed var(--secondary-color); /* Thicker dashed line */
+  border-bottom: 2px dashed var(--secondary-color);
+  /* Thicker dashed line */
   margin: 20px auto;
   height: 0px;
 }
