@@ -43,7 +43,7 @@ function About() {
             <div className="col-md-5 about-img">
               <LazyLoad height={500}>
                 <img
-                  src="images/about-banner-img.png"
+                  src="/images/about-banner-img.png"
                   className="img-fluid"
                   alt="about-banner-img"
                 />

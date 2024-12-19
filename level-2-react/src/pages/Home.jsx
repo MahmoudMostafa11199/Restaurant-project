@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import LazyLoad from 'react-lazyload';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -20,10 +21,12 @@ function Home() {
                 <div className="hero-Heading">
                   <div className="hero-Detalis">
                     <p className="sub-content">
-                      <img
-                        src="/images/home/icons/discount-vector.png"
-                        alt="Discount Icon"
-                      />
+                      <LazyLoad height={20}>
+                        <img
+                          src="/images/Home/icons/discount-vector.png"
+                          alt="Discount Icon"
+                        />
+                      </LazyLoad>
                       10% Discount For 2 Order
                     </p>
                     <h1>
@@ -48,55 +51,78 @@ function Home() {
                         <img src="/images/home/play-btn-vector.png" alt="" />
                       </Link>
                     </div>
-                    <img
-                      src="./assets/Icons/vector-arrow.png"
-                      className="arrowVector"
-                      alt=""
-                    />
+                    <LazyLoad height={70}>
+                      <img
+                        src="/images/Home/icons/vector-arrow.png"
+                        className="arrowVector"
+                        alt="vector arrow"
+                      />
+                    </LazyLoad>
                   </div>
                 </div>
                 <div className="hero-baner">
-                  <img src="/images/home/plateSalate.png" alt="" />
+                  <LazyLoad height={500}>
+                    <img
+                      src="/images/Home/plateSalate.png"
+                      alt="plate state images"
+                    />
+                  </LazyLoad>
                 </div>
               </div>
-              <img
-                src="/images/home/icons/dot-vector.png"
-                alt=""
-                className="dot-vector-one"
-              />
-              <img
-                src="./assets/Icons/dot-large-vector.png"
-                alt=""
-                className="dot-vector-two"
-              />
-              <img
-                src="./assets/Icons/dot-vector.png"
-                alt=""
-                className="dot-vector-three"
-              />
-              <img
-                src="./assets/Icons/dot-large-vector.png"
-                alt=""
-                className="dot-vector-four"
-              />
+              <LazyLoad height={15}>
+                <img
+                  src="/images/Home/icons/dot-vector.png"
+                  alt="dot vector icons"
+                  className="dot-vector-one"
+                />
+              </LazyLoad>
+              <LazyLoad height={25}>
+                <img
+                  src="/images/Home/icons/dot-large-vector.png"
+                  alt="dot large vector icons"
+                  className="dot-vector-two"
+                />
+              </LazyLoad>
+              <LazyLoad height={15}>
+                <img
+                  src="/images/Home/icons/dot-vector.png"
+                  alt="dot vector icons"
+                  className="dot-vector-three"
+                />
+              </LazyLoad>
+              <LazyLoad height={25}>
+                <img
+                  src="/images/Home/icons/dot-large-vector.png"
+                  alt="dot large vector icons"
+                  className="dot-vector-four"
+                />
+              </LazyLoad>
             </div>
             <div className="sochila col-lg-1">
-              <img
-                src="/images/home/icons/social/facebook-icon.png"
-                alt="Facbook icon"
-              />
-              <img
-                src="/images/home/icons/social/google-icon.png"
-                alt="Google icon"
-              />
-              <img
-                src="/images/home/icons/social/instagram-icon.png"
-                alt="Instegram icon"
-              />
-              <img
-                src="/images/home/icons/social/twitter-icon.png"
-                alt="Twitter icon"
-              />
+              <LazyLoad height={25}>
+                <img
+                  src="/images/home/icons/social/facebook-icon.png"
+                  alt="Facbook icon"
+                />
+              </LazyLoad>
+              <LazyLoad height={25}>
+                <img
+                  src="/images/home/icons/social/google-icon.png"
+                  alt="Google icon"
+                />
+              </LazyLoad>
+              <LazyLoad height={25}>
+                <img
+                  src="/images/home/icons/social/instagram-icon.png"
+                  alt="Instegram icon"
+                />
+              </LazyLoad>
+              <LazyLoad height={25}>
+                <img
+                  src="/images/home/icons/social/twitter-icon.png"
+                  alt="Twitter icon"
+                />
+              </LazyLoad>
             </div>
           </div>
         </div>
@@ -107,10 +133,15 @@ function Home() {
           <div className="row Features-Section">
             <div className="Feature col-lg-4 col-md-6 col-sm-12">
               <div className="icon">
-                <img src="/images/home/icons/FastestDilevery.svg" alt="" />
+                <LazyLoad height={65}>
+                  <img
+                    src="/images/Home/icons/FastestDilevery.svg"
+                    alt="Fastest Dilevery img"
+                  />
+                </LazyLoad>
               </div>
               <div className="content">
-                <h5>QualityFood</h5>
+                <h5>Quality Food</h5>
                 <span className="text-muted">
                   Height quality ingerdiants ensure the best taste and satation
                 </span>
@@ -119,7 +150,12 @@ function Home() {
             </div>
             <div className="Feature col-lg-4 col-md-6 col-sm-12">
               <div className="icon">
-                <img src="/images/home/icons/FreshFood.svg" alt="" />
+                <LazyLoad height={65}>
+                  <img
+                    src="/images/Home/icons/FreshFood.svg"
+                    alt="Fresh Food img"
+                  />
+                </LazyLoad>
               </div>
               <div className="content">
                 <h5>fastest Delelviry</h5>
@@ -131,7 +167,12 @@ function Home() {
             </div>
             <div className="Feature col-lg-4 col-md-12 col-sm-12">
               <div className="icon">
-                <img src="/images/home/icons/QualityFood.svg" alt="" />
+                <LazyLoad height={65}>
+                  <img
+                    src="/images/Home/icons/QualityFood.svg"
+                    alt="Quality Food img"
+                  />
+                </LazyLoad>
               </div>
               <div className="content">
                 <h5>fresh Food</h5>
@@ -141,7 +182,9 @@ function Home() {
               </div>
             </div>
             <div className="WatermarkFood">
-              <img src="/images/home/icons/foodIcon.png" alt="ssss" />
+              <LazyLoad height={130}>
+                <img src="/images/Home/icons/foodIcon.png" alt="Food" />
+              </LazyLoad>
             </div>
           </div>
 
@@ -161,20 +204,24 @@ function Home() {
                 </Link>
               </div>
               <div className="baner-img">
-                <img
-                  src="/images/home/Capture.PNG"
-                  className="img-fluid"
-                  alt=""
-                />
+                <LazyLoad height={400}>
+                  <img
+                    src="/images/Home/Capture.PNG"
+                    className="img-fluid"
+                    alt="Table in Restaurant"
+                  />
+                </LazyLoad>
               </div>
             </div>
             <div className="col-lg-6 secondBaner col-md-12">
               <div className="baner-img">
-                <img
-                  src="/images/home/pizaSlice.PNG"
-                  className="img-fluid"
-                  alt=""
-                />
+                <LazyLoad height={400}>
+                  <img
+                    src="/images/Home/pizaSlice.PNG"
+                    className="img-fluid"
+                    alt="Pizza Slice"
+                  />
+                </LazyLoad>
               </div>
               <div className="baner-content">
                 <h5>panner bater masla</h5>
@@ -189,7 +236,9 @@ function Home() {
               </div>
             </div>
             <div className="WatermarkFood">
-              <img src="/images/home/icons/food.png" alt="ssss" />
+              <LazyLoad height={130}>
+                <img src="/images/Home/icons/food.png" alt="Food" />
+              </LazyLoad>
             </div>
           </div>
         </div>
@@ -206,11 +255,13 @@ function Home() {
 
       {/*  Start Table Reservation Section   */}
       <section class="table-reservation position-relative">
-        <img
-          src="/images/plate-icon-07.svg"
-          className="plate-icon"
-          alt="plate-icon"
-        />
+        <LazyLoad height={60}>
+          <img
+            src="/images/plate-icon-07.svg"
+            className="plate-icon"
+            alt="plate-icon"
+          />
+        </LazyLoad>
         <div class="container">
           <div className="row">
             <div class="order d-flex align-items-center justify-content-center flex-column">
