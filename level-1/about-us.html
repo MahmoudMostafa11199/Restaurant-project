@@ -14,92 +14,487 @@
 
     <!-- Bootstrap CSS file for styling and layout features -->
     <link rel="stylesheet" href="assets/css/libs/bootstrap.min.css" />
-    
+
+    <!-- Swiper CSS file for styling and layout features -->
+    <link rel="stylesheet" href="assets/css/libs/swiper-bundle.min.css" />
+
     <!-- external-css-file  -->
     <link rel="stylesheet" href="assets/sass/main.css" />
+    <link rel="stylesheet" href="./assets/css/header-page.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/service-section.css" />
+    <link rel="stylesheet" href="./assets/css/icon-slider.css" />
   </head>
   <body>
-    <!--start About Section -->
-    <section class="about section">
-      <div class="container overflow-auto">
-        <div class="row section-title aos-init aos-animate text-center">
-          <div class="col-12">
-            <h4>
-              "Discover the Essence of culinary Excellence at [The Kafika]"
-            </h4>
-            <p class="underline"></p>
-            <p class="about-text">
-              Experience the epitome of culinary artistry at The Kafika, where
-              every dish is a masterpiece crafted with passion and precision.
-              Nestled in the heart of [City/Location], our restaurant is a haven
-              for food enthusiasts seeking unparalleled dining experiences. From
-              tantalizing appetizers to exquisite mains and divine desserts,
-              each creation reflects our unwavering commitment to quality and
-              innovation. Immerse yourself in our warm and inviting ambiance,
-              where every visit promises to awaken your senses and leave lasting
-              memories. Join us at The Kafika and embark on a culinary journey
-              that celebrates the essence of excellence in every bite.
-            </p>
+    <!--------------- Header Nav --------------->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-color">
+        <div
+          class="container-fluid d-flex justify-content-between aligin-items-center"
+        >
+          <a href="./index.html" class="logo-container navbar-brand">
+            <img src="./assets/images/the-cafika-logos.png" alt="Kafika logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" aria-current="page">
+                  Home
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      d="M207 381.5L12.7 187.1c-9.4-9.4-9.4-24.6 0-33.9l22.7-22.7c9.4-9.4 24.5-9.4 33.9 0L224 284.5l154.7-154c9.4-9.3 24.5-9.3 33.9 0l22.7 22.7c9.4 9.4 9.4 24.6 0 33.9L241 381.5c-9.4 9.4-24.6 9.4-33.9 0z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact-us.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+            </ul>
+            <div class="circle"></div>
           </div>
         </div>
-        <div class="row section-content">
-          <div class="col-md-5 about-img">
-            <img
-              src="assets/images/about-us/about-banner-img.png"
-              class="img-fluid"
-              alt="about-banner-img"
-            />
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <main>
+      <!-- Start Header Page -->
+      <section class="header-page text-center">
+        <div class="container">
+          <h1 class="heading__primary mb-4 mb-md-5 hidden animate--bottom">
+            About Us
+          </h1>
+          <a
+            href="../index.html"
+            class="btn btn--primary hidden animate--bottom"
+            >Home / About Us</a
+          >
+        </div>
+      </section>
+      <!-- End Header Page -->
+
+      <!--Start About Section -->
+      <section class="about section">
+        <div class="container overflow-auto">
+          <div class="row section-title aos-init aos-animate text-center">
+            <div class="col-12">
+              <h4>
+                "Discover the Essence of culinary Excellence at [The Kafika]"
+              </h4>
+              <p class="underline"></p>
+              <p class="about-text">
+                Experience the epitome of culinary artistry at The Kafika, where
+                every dish is a masterpiece crafted with passion and precision.
+                Nestled in the heart of [City/Location], our restaurant is a
+                haven for food enthusiasts seeking unparalleled dining
+                experiences. From tantalizing appetizers to exquisite mains and
+                divine desserts, each creation reflects our unwavering
+                commitment to quality and innovation. Immerse yourself in our
+                warm and inviting ambiance, where every visit promises to awaken
+                your senses and leave lasting memories. Join us at The Kafika
+                and embark on a culinary journey that celebrates the essence of
+                excellence in every bite.
+              </p>
+            </div>
           </div>
-          <div class="col-md-6 ms-md-5 about-content position-relative">
-            <h6 class="title fw-medium">About Us</h6>
-            <h3 class="">
-              Quality and Healthy Food is <span>Our Promise</span> to You
-            </h3>
-            <p class="mt-4 text mb-2">
-              Indulge in our commitment to quality and health with every bite of
-              our delicious food offerings, crafted with care and using only the
-              freshest ingredients to nourish your body and soul.
-            </p>
+          <div class="row section-content">
+            <div class="col-md-5 about-img">
+              <img
+                src="assets/images/about-us/about-banner-img.png"
+                class="img-fluid"
+                alt="about-banner-img"
+              />
+            </div>
+            <div class="col-md-6 ms-md-5 about-content position-relative">
+              <h6 class="title fw-medium">About Us</h6>
+              <h3 class="">
+                Quality and Healthy Food is <span>Our Promise</span> to You
+              </h3>
+              <p class="mt-4 text mb-2">
+                Indulge in our commitment to quality and health with every bite
+                of our delicious food offerings, crafted with care and using
+                only the freshest ingredients to nourish your body and soul.
+              </p>
 
-            <ul
-              class="d-flex justify-content-between flex-wrap p-0 mt-4 me-md-4"
-            >
-              <a href="" class="mb-2">
-                <i
-                  class="fa-solid arrow-icon fa-chevron-right me-2 mb-md-2"
-                ></i>
-                Food Inventory Management
-              </a>
+              <ul
+                class="d-flex justify-content-between flex-wrap p-0 mt-4 me-md-4"
+              >
+                <a href="" class="mb-2">
+                  <i
+                    class="fa-solid arrow-icon fa-chevron-right me-2 mb-md-2"
+                  ></i>
+                  Food Inventory Management
+                </a>
 
-              <a href="" class="mb-2">
-                <i class="fa-solid arrow-icon fa-chevron-right me-2 mb-md-2"></i>
-                Customer Feedback Platform
-              </a>
+                <a href="" class="mb-2">
+                  <i
+                    class="fa-solid arrow-icon fa-chevron-right me-2 mb-md-2"
+                  ></i>
+                  Customer Feedback Platform
+                </a>
 
-              <a href="" class="mb-2">
-                <i class="fa-solid arrow-icon fa-chevron-right me-2 mb-md-2"></i>
-                Dining Reservation System
-              </a>
-              <a href="" class="mb-2">
-                <i class="fa-solid arrow-icon fa-chevron-right me-2 mb-md-2"></i>
-                Dining Reservation System&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </a>
-            </ul>
+                <a href="" class="mb-2">
+                  <i
+                    class="fa-solid arrow-icon fa-chevron-right me-2 mb-md-2"
+                  ></i>
+                  Dining Reservation System
+                </a>
+                <a href="" class="mb-2">
+                  <i
+                    class="fa-solid arrow-icon fa-chevron-right me-2 mb-md-2"
+                  ></i>
+                  Dining Reservation System&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </a>
+              </ul>
 
-            <div class="viwe-more-btn aos-init aos-animate mt-5">
-              <a href="../Contact Us/index.html" class="primary-btn">
-                <span>Our Services</span>
-              </a>
+              <div class="viwe-more-btn aos-init aos-animate mt-5">
+                <a href="../Contact Us/index.html" class="primary-btn">
+                  <span>Our Services</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+      <!--End About Section -->
+
+      <!--Start Service Section -->
+      <section class="service-section">
+        <div class="container text-center">
+          <div class="mb-5">
+            <div class="d-flex justify-content-center gap-4 mb-2">
+              <img
+                src="./assets/images/services/left-leaf-icon.svg"
+                alt="Decorative left leaf icon"
+              />
+              <h2
+                class="heading__secondary heading__secondary--small u-heading-compressed"
+              >
+                Our Services
+              </h2>
+              <img
+                src="./assets/images/services/right-leaf-icon.svg"
+                alt="Decorative right leaf icon"
+              />
+            </div>
+            <p class="sub__heading sub__heading--large u-heading-compressed">
+              Top Food Menu Selection
+            </p>
+          </div>
+
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 services"
+          >
+            <div class="mb-4 mb-lg-0">
+              <div class="service">
+                <img
+                  src="./assets/images/services/services-icon-1.svg"
+                  alt="Icon representing quality food"
+                  class="service__icon mb-5"
+                />
+                <h4 class="service__title mb-4">Quality Food</h4>
+                <p class="service__text">
+                  Delight in the excellence of our culinary creations, crafted
+                  with care and attention to detail for your ultimate
+                  satisfaction.
+                </p>
+                <a href="#" class="service__link"
+                  ><span class="service__link-text"> Learn More </span>
+                  <i class="fa-solid fa-arrow-right service__link-icon"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="mb-4 mb-md-0">
+              <div class="service">
+                <img
+                  src="./assets/images/services/services-icon-2.svg"
+                  alt="Icon representing fast delivery service"
+                  class="service__icon mb-5"
+                />
+                <h4 class="service__title mb-4">Fastest Delivery</h4>
+                <p class="service__text">
+                  Prompt and efficient delivery service ensuring your food
+                  arrives fresh and delicious right to your doorstep in no time.
+                </p>
+                <a href="#" class="service__link"
+                  ><span class="service__link-text"> Learn More </span>
+                  <i class="fa-solid fa-arrow-right service__link-icon"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="mb-4 mb-sm-0">
+              <div class="service">
+                <img
+                  src="./assets/images/services/services-icon-3.svg"
+                  alt="Icon representing fresh food preparation"
+                  class="service__icon mb-5"
+                />
+                <h4 class="service__title mb-4">Fresh Food</h4>
+                <p class="service__text">
+                  Delicious and nutritious meals prepared with fresh
+                  ingredients, ensuring every bite is bursting with flavor and
+                  goodness.
+                </p>
+                <a href="#" class="service__link"
+                  ><span class="service__link-text"> Learn More </span>
+                  <i class="fa-solid fa-arrow-right service__link-icon"></i
+                ></a>
+              </div>
+            </div>
+
+            <div>
+              <div class="service">
+                <img
+                  src="./assets/images/services/services-icon-4.svg"
+                  alt="Icon representing easy ordering process"
+                  class="service__icon mb-5"
+                />
+                <h4 class="service__title mb-4">Easy to Order</h4>
+                <p class="service__text">
+                  Simple and convenient ordering process, making it effortless
+                  for you to enjoy your favorite meals whenever you desire.
+                </p>
+                <a href="#" class="service__link"
+                  ><span class="service__link-text"> Learn More </span>
+                  <i class="fa-solid fa-arrow-right service__link-icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Service Section -->
+
+      <!--Start Icon Slider Section -->
+      <section class="featured-brands py-5">
+        <div class="container text-center">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-1.png"
+                  alt="Circle brand"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-2.png"
+                  alt="Earth 2.0 brand"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-3.png"
+                  alt="Goldline brand"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-4.png"
+                  alt="Line AI brand"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-5.png"
+                  alt="UTOSIA brand"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Icon Slider Section -->
+    </main>
+
+    <!--------------- Footer --------------->
+    <footer class="footer">
+      <div class="container-md">
+        <div class="footer-link">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-logo mb-4">
+                  <a href="index.html">
+                    <img
+                      src="./assets/images/the-cafika-logos.png"
+                      alt="logo"
+                    />
+                  </a>
+                </div>
+
+                <p class="mb-4">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has...
+                </p>
+
+                <div class="social-icon d-flex align-items-center">
+                  <div class="color-change">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+
+                  <a
+                    href="https://x.com/?lang=en"
+                    target="_blank"
+                    class="d-flex align-items-center justify-content-center"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+
+                  <a
+                    href="https://in.linkedin.com/"
+                    target="_blank"
+                    class="d-flex align-items-center justify-content-center"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-title position-relative">
+                  <h2>Menu</h2>
+                </div>
+
+                <div class="footer-menu">
+                  <a href="index.html">Home</a>
+
+                  <a href="about-us.html">About Us</a>
+
+                  <a href="reservation.html">Reservation</a>
+
+                  <a href="blog.html">Blogs</a>
+
+                  <a href="contact-us.html">Contact</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-title position-relative">
+                  <h2>Services</h2>
+                </div>
+
+                <div class="footer-menu">
+                  <a href="services.html">Services 01</a>
+
+                  <a href="services.html">Services 02</a>
+
+                  <a href="services.html">Services 03</a>
+
+                  <a href="services.html">Services 04</a>
+
+                  <a href="services.html">Services 05</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-title position-relative">
+                  <h2>Find Us</h2>
+                </div>
+
+                <div class="footer-contact">
+                  <ul class="d-flex align-items-center">
+                    <li><i class="fas fa-phone-alt"></i></li>
+
+                    <li><a href="tel:911234567890">+91 12 34 56 78 90</a></li>
+                  </ul>
+
+                  <ul class="d-flex align-items-center">
+                    <li><i class="fas fa-at"></i></li>
+
+                    <li>
+                      <a href="mailto:info@thekafika.com">info@thekafika.com</a>
+                    </li>
+                  </ul>
+
+                  <ul class="d-flex m-0">
+                    <li><i class="fas fa-map-marker-alt"></i></li>
+
+                    <li>
+                      <a href="https://maps.google.com/" target="_blank"
+                        >3891 Ranchview Dr. Richardson, California 62639</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="footer-copyright">
+          <div class="bottom-text d-flex justify-content-center">
+            <p>© Copyright 2024 - TheKafika - All Rights Reserved</p>
+          </div>
+        </div>
       </div>
-    </section>
-    <!--End About Section -->
+    </footer>
 
     <!-- minified Bootstrap JavaScript bundle file-->
     <script src="assets/js/libs/bootstrap.bundle.min.js"></script>
-
+    <!-- JS File for Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- external JavaScript file -->
     <script src="assets/js/main.js"></script>
   </body>

@@ -3,771 +3,1407 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Menu </title>
+    <title>Our Menu</title>
     <!-- Fonts stylesheet for DM Sans and Syne fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap"
       rel="stylesheet"
     />
     <!-- the minified Font Awesome CSS file -->
-    <link rel="stylesheet" href="assets/css/libs/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/libs/all.min.css" />
     <!-- Bootstrap CSS file for styling and layout features -->
-    <link rel="stylesheet" href="assets/css/libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/libs/bootstrap.min.css" />
+    <!-- Swiper CSS file for styling and layout features -->
+    <link rel="stylesheet" href="./assets/css/libs/swiper-bundle.min.css" />
+
     <!-- external-css-file  -->
-    <link rel="stylesheet" href="assets/sass/main.css" />
-    
+    <link rel="stylesheet" href="./assets/sass/main.css" />
+    <link rel="stylesheet" href="./assets/css/header-page.css" />
+    <link rel="stylesheet" href="./assets/css/icon-slider.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
   </head>
 
   <body>
-
-    <!-- start portfolio-section  -->
-    <section id="portfolio" class="portfolio">
-      <div class="container  py-5">
-        <div class="portfolio-area  my-5">
-          <ul class="nav nav-pills justify-content-center mb-5" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active btn  " id="pills-All-tab" data-bs-toggle="pill" data-bs-target="#pills-All" type="button" role="tab" aria-controls="pills-All" aria-selected="true">All Categories</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-Sandwiches-tab  " data-bs-toggle="pill" data-bs-target="#pills-Sandwiches" type="button" role="tab" aria-controls="pills-Sandwiches" aria-selected="false">Sandwiches</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-Snack-tab  " data-bs-toggle="pill" data-bs-target="#pills-Snack" type="button" role="tab" aria-controls="pills-Snack" aria-selected="false">Snack foods</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-Fast-tab  " data-bs-toggle="pill" data-bs-target="#pills-Fast" type="button" role="tab" aria-controls="pills-Fast" aria-selected="false">Fast food</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-Noodles-tab  " data-bs-toggle="pill" data-bs-target="#pills-Noodles" type="button" role="tab" aria-controls="pills-Noodles" aria-selected="false">Noodles</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-Snack-tab  " data-bs-toggle="pill" data-bs-target="#pills-Snack" type="button" role="tab" aria-controls="pills-Snack" aria-selected="false">Snack foods</button>
-            </li>
-          </ul>
-
-          <div class="tab-content " id="pills-tabContent">
-            <div class="tab-pane fade show active " id="pills-All" role="tabpanel" aria-labelledby="pills-All-tab">
-              <div class="row isotope-container   aos-init aos-animate position-relative" data-aos-delay="200">
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="offer-lable">
-                      <span>20% Off</span>
-                    </div>
-                    
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/fresh-healthy-masala-pasta-2.png" alt="fresh">
-                    </div>
-
-                    <div class="item-detail text-center">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Fresh & Healthy Masala Pasta</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/flower-vegetable-dish-parcel-2.png" alt="vegetable">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Flower Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png" alt="potato">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Potato Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png" alt="salad">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Fresh & Healthy Masala Pasta</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Dal Tadka Yellow Indian Lentils</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Sautéed Spinach and Potatoes</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Palak Paneer Saag Paneer</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Dal Tadka Yellow Indian Lentils</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/flower-vegetable-dish-parcel-2.png" alt="vegetable">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Flower Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png" alt="potato">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Potato Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png" alt="salad">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Fresh & Healthy Masala Pasta</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Dal Tadka Yellow Indian Lentils</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Sautéed Spinach and Potatoes</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Palak Paneer Saag Paneer</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Dal Tadka Yellow Indian Lentils</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-
-                
-                
-              </div>
-            </div>
-
-            <div class="tab-pane fade show " id="pills-Sandwiches" role="tabpanel" aria-labelledby="pills-Sandwiches-tab">
-              <div class="row isotope-container   aos-init aos-animate position-relative" data-aos-delay="200">
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="offer-lable">
-                      <span>20% Off</span>
-                    </div>
-                    
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/fresh-healthy-masala-pasta-2.png" alt="fresh">
-                    </div>
-
-                    <div class="item-detail text-center">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Fresh & Healthy Masala Pasta</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/flower-vegetable-dish-parcel-2.png" alt="vegetable">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Flower Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png" alt="potato">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Potato Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png" alt="salad">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Fresh & Healthy Masala Pasta</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="tab-pane fade show " id="pills-Snack" role="tabpanel" aria-labelledby="pills-Snack-tab">
-              <div class="row isotope-container   aos-init aos-animate position-relative" data-aos-delay="200">
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/fresh-healthy-masala-pasta-2.png" alt="fresh">
-                    </div>
-
-                    <div class="item-detail text-center">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Fresh & Healthy Masala Pasta</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/flower-vegetable-dish-parcel-2.png" alt="vegetable">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Flower Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png" alt="potato">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Potato Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png" alt="salad">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Fresh & Healthy Masala Pasta</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png" alt="potato">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Potato Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="tab-pane fade show " id="pills-Fast" role="tabpanel" aria-labelledby="pills-Fast-tab">
-              <div class="row isotope-container   aos-init aos-animate position-relative" data-aos-delay="200">
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Sautéed Spinach and Potatoes</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Dal Tadka Yellow Indian Lentils</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png" alt="potato">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Potato Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="tab-pane fade show " id="pills-Noodles" role="tabpanel" aria-labelledby="pills-Noodles-tab">
-              <div class="row isotope-container   aos-init aos-animate position-relative" data-aos-delay="200">
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png" alt="potato">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Potato Vegetable Dish & Parcel</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png" alt="salad">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Fresh & Healthy Masala Pasta</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 col-6 portfolio-item overflow-hidden mb-4" >
-                  <div class="item-box-two d-flex position-relative overflow-hidden">
-                    <div class="food-item">
-                      <img src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png" alt="tadka">
-                    </div>
-
-                    <div class="item-detail">
-                      <p>4.5   <i class="fa-solid fa-star"></i> </p>
-                    
-                      <h3>Dal Tadka Yellow Indian Lentils</h3>
-                      <div class="d-flex price justify-content-between align-items-center">
-                        <h4>$20.50</h4>
-                        <div class="plus-bg">
-                          <a href="../Contact Us/index.html">
-                            <i class="fa-solid fa-plus icon-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            
+    <!--------------- Header Nav --------------->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-color">
+        <div
+          class="container-fluid d-flex justify-content-between aligin-items-center"
+        >
+          <a href="./index.html" class="logo-container navbar-brand">
+            <img src="./assets/images/the-cafika-logos.png" alt="Kafika logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" aria-current="page">
+                  Home
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      d="M207 381.5L12.7 187.1c-9.4-9.4-9.4-24.6 0-33.9l22.7-22.7c9.4-9.4 24.5-9.4 33.9 0L224 284.5l154.7-154c9.4-9.3 24.5-9.3 33.9 0l22.7 22.7c9.4 9.4 9.4 24.6 0 33.9L241 381.5c-9.4 9.4-24.6 9.4-33.9 0z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact-us.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+            </ul>
+            <div class="circle"></div>
           </div>
-
-          <div class="viwe-more-btn aos-init aos-animate ">
-            <a href="#" class="primary-btn">
-              <span>More Load</span>
-            </a>
-          </div>
-
         </div>
+      </nav>
+    </header>
+    <!-- Menu Section -->
+    <main>
+      <!-- Start Header Page -->
+      <section class="header-page text-center">
+        <div class="container">
+          <h1 class="heading__primary mb-4 mb-md-5 hidden animate--bottom">
+            Our Menu
+          </h1>
+          <a
+            href="../index.html"
+            class="btn btn--primary hidden animate--bottom"
+            >Home / Our Menu</a
+          >
+        </div>
+      </section>
+      <!-- End Header Page -->
+
+      <!-- start portfolio-section  -->
+      <section id="portfolio" class="portfolio">
+        <div class="container py-5">
+          <div class="portfolio-area my-5">
+            <ul
+              class="nav nav-pills justify-content-center mb-5"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active btn"
+                  id="pills-All-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-All"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-All"
+                  aria-selected="true"
+                >
+                  All Categories
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-Sandwiches-tab  "
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Sandwiches"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Sandwiches"
+                  aria-selected="false"
+                >
+                  Sandwiches
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-Snack-tab  "
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Snack"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Snack"
+                  aria-selected="false"
+                >
+                  Snack foods
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-Fast-tab  "
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Fast"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Fast"
+                  aria-selected="false"
+                >
+                  Fast food
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-Noodles-tab  "
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Noodles"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Noodles"
+                  aria-selected="false"
+                >
+                  Noodles
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-Snack-tab  "
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-Snack"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-Snack"
+                  aria-selected="false"
+                >
+                  Snack foods
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-All"
+                role="tabpanel"
+                aria-labelledby="pills-All-tab"
+              >
+                <div
+                  class="row isotope-container aos-init aos-animate position-relative"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="offer-lable">
+                        <span>20% Off</span>
+                      </div>
+
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/fresh-healthy-masala-pasta-2.png"
+                          alt="fresh"
+                        />
+                      </div>
+
+                      <div class="item-detail text-center">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Fresh & Healthy Masala Pasta</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/flower-vegetable-dish-parcel-2.png"
+                          alt="vegetable"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Flower Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png"
+                          alt="potato"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Potato Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png"
+                          alt="salad"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Fresh & Healthy Masala Pasta</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Dal Tadka Yellow Indian Lentils</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Sautéed Spinach and Potatoes</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Palak Paneer Saag Paneer</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Dal Tadka Yellow Indian Lentils</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/flower-vegetable-dish-parcel-2.png"
+                          alt="vegetable"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Flower Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png"
+                          alt="potato"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Potato Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png"
+                          alt="salad"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Fresh & Healthy Masala Pasta</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Dal Tadka Yellow Indian Lentils</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Sautéed Spinach and Potatoes</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Palak Paneer Saag Paneer</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Dal Tadka Yellow Indian Lentils</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade show"
+                id="pills-Sandwiches"
+                role="tabpanel"
+                aria-labelledby="pills-Sandwiches-tab"
+              >
+                <div
+                  class="row isotope-container aos-init aos-animate position-relative"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="offer-lable">
+                        <span>20% Off</span>
+                      </div>
+
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/fresh-healthy-masala-pasta-2.png"
+                          alt="fresh"
+                        />
+                      </div>
+
+                      <div class="item-detail text-center">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Fresh & Healthy Masala Pasta</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/flower-vegetable-dish-parcel-2.png"
+                          alt="vegetable"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Flower Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png"
+                          alt="potato"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Potato Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png"
+                          alt="salad"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Fresh & Healthy Masala Pasta</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade show"
+                id="pills-Snack"
+                role="tabpanel"
+                aria-labelledby="pills-Snack-tab"
+              >
+                <div
+                  class="row isotope-container aos-init aos-animate position-relative"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/fresh-healthy-masala-pasta-2.png"
+                          alt="fresh"
+                        />
+                      </div>
+
+                      <div class="item-detail text-center">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Fresh & Healthy Masala Pasta</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/flower-vegetable-dish-parcel-2.png"
+                          alt="vegetable"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Flower Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png"
+                          alt="potato"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Potato Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png"
+                          alt="salad"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Fresh & Healthy Masala Pasta</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png"
+                          alt="potato"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Potato Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade show"
+                id="pills-Fast"
+                role="tabpanel"
+                aria-labelledby="pills-Fast-tab"
+              >
+                <div
+                  class="row isotope-container aos-init aos-animate position-relative"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/palak-paneer-saag-paneer-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Sautéed Spinach and Potatoes</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Dal Tadka Yellow Indian Lentils</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png"
+                          alt="potato"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Potato Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade show"
+                id="pills-Noodles"
+                role="tabpanel"
+                aria-labelledby="pills-Noodles-tab"
+              >
+                <div
+                  class="row isotope-container aos-init aos-animate position-relative"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/potato-vegetable-dish-parcel-2.png"
+                          alt="potato"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Potato Vegetable Dish & Parcel</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/fresh-healthy-masala-salad-2.png"
+                          alt="salad"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Fresh & Healthy Masala Pasta</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-4 col-6 portfolio-item overflow-hidden mb-4"
+                  >
+                    <div
+                      class="item-box-two d-flex position-relative overflow-hidden"
+                    >
+                      <div class="food-item">
+                        <img
+                          src="assets/images/home/menu-section/dal-tadka-yellow-indian-lentils-2.png"
+                          alt="tadka"
+                        />
+                      </div>
+
+                      <div class="item-detail">
+                        <p>4.5 <i class="fa-solid fa-star"></i></p>
+
+                        <h3>Dal Tadka Yellow Indian Lentils</h3>
+                        <div
+                          class="d-flex price justify-content-between align-items-center"
+                        >
+                          <h4>$20.50</h4>
+                          <div class="plus-bg">
+                            <a href="../Contact Us/index.html">
+                              <i class="fa-solid fa-plus icon-plus"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="viwe-more-btn aos-init aos-animate">
+              <a href="#" class="primary-btn">
+                <span>More Load</span>
+              </a>
+            </div>
           </div>
-    </section>
-    <!-- end portfolio-section  -->
+        </div>
+      </section>
+      <!-- end portfolio-section  -->
+
+      <!--Start Icon Slider Section -->
+      <section class="featured-brands py-5">
+        <div class="container text-center">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-1.png"
+                  alt="Circle brand"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-2.png"
+                  alt="Earth 2.0 brand"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-3.png"
+                  alt="Goldline brand"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-4.png"
+                  alt="Line AI brand"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-logo"
+                  src="./assets/images/icon-brand/logo-5.png"
+                  alt="UTOSIA brand"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Icon Slider Section -->
+    </main>
+
+    <!--------------- Footer --------------->
+    <footer class="footer">
+      <div class="container-md">
+        <div class="footer-link">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-logo mb-4">
+                  <a href="index.html">
+                    <img
+                      src="./assets/images/the-cafika-logos.png"
+                      alt="logo"
+                    />
+                  </a>
+                </div>
+
+                <p class="mb-4">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has...
+                </p>
+
+                <div class="social-icon d-flex align-items-center">
+                  <div class="color-change">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+
+                  <a
+                    href="https://x.com/?lang=en"
+                    target="_blank"
+                    class="d-flex align-items-center justify-content-center"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+
+                  <a
+                    href="https://in.linkedin.com/"
+                    target="_blank"
+                    class="d-flex align-items-center justify-content-center"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-title position-relative">
+                  <h2>Menu</h2>
+                </div>
+
+                <div class="footer-menu">
+                  <a href="index.html">Home</a>
+
+                  <a href="about-us.html">About Us</a>
+
+                  <a href="reservation.html">Reservation</a>
+
+                  <a href="blog.html">Blogs</a>
+
+                  <a href="contact-us.html">Contact</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-title position-relative">
+                  <h2>Services</h2>
+                </div>
+
+                <div class="footer-menu">
+                  <a href="services.html">Services 01</a>
+
+                  <a href="services.html">Services 02</a>
+
+                  <a href="services.html">Services 03</a>
+
+                  <a href="services.html">Services 04</a>
+
+                  <a href="services.html">Services 05</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-title position-relative">
+                  <h2>Find Us</h2>
+                </div>
+
+                <div class="footer-contact">
+                  <ul class="d-flex align-items-center">
+                    <li><i class="fas fa-phone-alt"></i></li>
+
+                    <li><a href="tel:911234567890">+91 12 34 56 78 90</a></li>
+                  </ul>
+
+                  <ul class="d-flex align-items-center">
+                    <li><i class="fas fa-at"></i></li>
+
+                    <li>
+                      <a href="mailto:info@thekafika.com">info@thekafika.com</a>
+                    </li>
+                  </ul>
+
+                  <ul class="d-flex m-0">
+                    <li><i class="fas fa-map-marker-alt"></i></li>
+
+                    <li>
+                      <a href="https://maps.google.com/" target="_blank"
+                        >3891 Ranchview Dr. Richardson, California 62639</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="footer-copyright">
+          <div class="bottom-text d-flex justify-content-center">
+            <p>© Copyright 2024 - TheKafika - All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- minified Bootstrap JavaScript bundle file-->
-    <script src="assets/js/libs/bootstrap.bundle.min.js"></script>
-
+    <script src="./assets/js/libs/bootstrap.bundle.min.js"></script>
+    <!-- JS File for Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- external JavaScript file -->
     <script src="assets/js/main.js"></script>
-
   </body>
 </html>

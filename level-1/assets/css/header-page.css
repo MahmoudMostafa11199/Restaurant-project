@@ -1,0 +1,52 @@
+.header-page {
+  padding: 96px 0;
+  margin-bottom: 64px;
+  background-color: #faf4ed;
+
+  .container {
+    max-width: 1300px;
+    margin-inline: auto;
+    padding: 0 20px;
+  }
+
+  .heading__primary {
+    font-size: 48px;
+    font-weight: 500;
+    color: #534930;
+  }
+  @media screen and (max-width: 49em) {
+    .heading__primary {
+      font-size: 46px;
+    }
+  }
+
+  .btn {
+    font-size: 20px;
+    background-color: #b28e6a;
+    color: #f7f7f7 !important;
+    padding: 6px 26px;
+  }
+  @media screen and (max-width: 49em) {
+    .btn {
+      font-size: 16px;
+    }
+  }
+  .btn:hover,
+  .btn:active {
+    background-color: #7d634a;
+  }
+
+  .hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  .animate--bottom {
+    transform: translateY(100px);
+  }
+  .visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0);
+  }
+}

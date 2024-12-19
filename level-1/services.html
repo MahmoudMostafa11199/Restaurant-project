@@ -1,100 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services</title>
-</head>
-<body>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services Page</title>
-  <link
-  href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap"
-  rel="stylesheet"
-  />
-  <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      rel="stylesheet"
-    />
-  <link rel="stylesheet" href="../assets/Css/libs/bootstrap.min.css" />
-  <link rel="stylesheet" href="../assets/Css/top-selection.css" />
-  <link rel="stylesheet" href="../assets/Css/Icon-Slider.css" />
-  <link rel="stylesheet" href="../assets/Css/nav-footer.css" />
-  <link rel="stylesheet" href="./assets/Css/services/services.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Services Page</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap"
+          rel="stylesheet"
+        />
+        <!-- the minified Font Awesome CSS file -->
+        <link rel="stylesheet" href="assets/css/libs/all.min.css" />
 
+        <!-- Bootstrap CSS file for styling and layout features -->
+        <link rel="stylesheet" href="assets/css/libs/bootstrap.min.css" />
 
-  <section class="discount-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12  col-lg-3" style="padding-right: 0px;">
-          <div class="card card-image-left">
-            <img src="./assets/images/services/background-image-left.avif" alt="Food Item 1">
-          </div>
-        </div>
-        <div class=" col-12  col-lg-3 ">
-          <div class="card card-image-right">
-            <img src="./assets/images/services/background-image-right.avif" alt="Food Item 2">
-          </div>
-        </div>
-        <div>
-          <div class="discount-details">
-            <p class="title">Place Your Order Online</p>
-            <h3>Enjoy a <span>10% Discount</span> on Your First Order</h3>
-            <p class="description">Place your meal order online today and enjoy a special 10% discount on your first
-              purchase.
-              Don't miss out on this exclusive offer! Order now to save on your delicious meal.</p>
-            <div class="toggle-book">
-              <input type="checkbox" id="book-table-toggle" />
-              <label for="book-table-toggle" class="toggle-label">
-                <span class="toggle-text">Book Table</span>
-              </label>
+        <!-- Swiper CSS file for styling and layout features -->
+        <link rel="stylesheet" href="assets/css/libs/swiper-bundle.min.css" />
+
+        <link rel="stylesheet" href="./assets/css/services/services.css" />
+        <link rel="stylesheet" href="./assets/css/service-section.css" />
+        <link rel="stylesheet" href="./assets/css/header-page.css" />
+        <link rel="stylesheet" href="./assets/css/icon-slider.css" />
+        <link rel="stylesheet" href="./assets/css/header.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
+      </head>
+      <body>
+        <!--------------- Header Nav --------------->
+        <header class="header">
+          <nav class="navbar navbar-expand-lg bg-color">
+            <div
+              class="container-fluid d-flex justify-content-between aligin-items-center"
+            >
+              <a href="./index.html" class="logo-container navbar-brand">
+                <img
+                  src="./assets/images/the-cafika-logos.png"
+                  alt="Kafika logo"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                class="collapse navbar-collapse justify-content-end"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html" aria-current="page">
+                      Home
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                        width="16"
+                        height="16"
+                      >
+                        <path
+                          d="M207 381.5L12.7 187.1c-9.4-9.4-9.4-24.6 0-33.9l22.7-22.7c9.4-9.4 24.5-9.4 33.9 0L224 284.5l154.7-154c9.4-9.3 24.5-9.3 33.9 0l22.7 22.7c9.4 9.4 9.4 24.6 0 33.9L241 381.5c-9.4 9.4-24.6 9.4-33.9 0z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about-us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                  </li>
+                </ul>
+                <div class="circle"></div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!-- Services Section -->
+        <main>
+          <!-- Start Header Page -->
+          <section class="header-page text-center">
+            <div class="container">
+              <h1 class="heading__primary mb-4 mb-md-5 hidden animate--bottom">
+                Services
+              </h1>
+              <a
+                href="../index.html"
+                class="btn btn--primary hidden animate--bottom"
+                >Home / Services</a
+              >
+            </div>
+          </section>
+          <!-- End Header Page -->
+
+          <!--Start Service Section -->
+          <section class="service-section">
+            <div class="container text-center">
+              <div class="mb-5">
+                <div class="d-flex justify-content-center gap-4 mb-2">
+                  <img
+                    src="./assets/images/services/left-leaf-icon.svg"
+                    alt="Decorative left leaf icon"
+                  />
+                  <h2
+                    class="heading__secondary heading__secondary--small u-heading-compressed"
+                  >
+                    Our Services
+                  </h2>
+                  <img
+                    src="./assets/images/services/right-leaf-icon.svg"
+                    alt="Decorative right leaf icon"
+                  />
+                </div>
+                <p
+                  class="sub__heading sub__heading--large u-heading-compressed"
+                >
+                  Top Food Menu Selection
+                </p>
+              </div>
+
+              <div
+                class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 services"
+              >
+                <div class="mb-4 mb-lg-0">
+                  <div class="service">
+                    <img
+                      src="./assets/images/services/services-icon-1.svg"
+                      alt="Icon representing quality food"
+                      class="service__icon mb-5"
+                    />
+                    <h4 class="service__title mb-4">Quality Food</h4>
+                    <p class="service__text">
+                      Delight in the excellence of our culinary creations,
+                      crafted with care and attention to detail for your
+                      ultimate satisfaction.
+                    </p>
+                    <a href="./contact-us.html" class="service__link"
+                      ><span class="service__link-text"> Learn More </span>
+                      <i class="fa-solid fa-arrow-right service__link-icon"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="mb-4 mb-md-0">
+                  <div class="service">
+                    <img
+                      src="./assets/images/services/services-icon-2.svg"
+                      alt="Icon representing fast delivery service"
+                      class="service__icon mb-5"
+                    />
+                    <h4 class="service__title mb-4">Fastest Delivery</h4>
+                    <p class="service__text">
+                      Prompt and efficient delivery service ensuring your food
+                      arrives fresh and delicious right to your doorstep in no
+                      time.
+                    </p>
+                    <a href="./contact-us.html" class="service__link"
+                      ><span class="service__link-text"> Learn More </span>
+                      <i class="fa-solid fa-arrow-right service__link-icon"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="mb-4 mb-sm-0">
+                  <div class="service">
+                    <img
+                      src="./assets/images/services/services-icon-3.svg"
+                      alt="Icon representing fresh food preparation"
+                      class="service__icon mb-5"
+                    />
+                    <h4 class="service__title mb-4">Fresh Food</h4>
+                    <p class="service__text">
+                      Delicious and nutritious meals prepared with fresh
+                      ingredients, ensuring every bite is bursting with flavor
+                      and goodness.
+                    </p>
+                    <a href="./contact-us.html" class="service__link"
+                      ><span class="service__link-text"> Learn More </span>
+                      <i class="fa-solid fa-arrow-right service__link-icon"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="service">
+                    <img
+                      src="./assets/images/services/services-icon-4.svg"
+                      alt="Icon representing easy ordering process"
+                      class="service__icon mb-5"
+                    />
+                    <h4 class="service__title mb-4">Easy to Order</h4>
+                    <p class="service__text">
+                      Simple and convenient ordering process, making it
+                      effortless for you to enjoy your favorite meals whenever
+                      you desire.
+                    </p>
+                    <a href="./contact-us.html" class="service__link"
+                      ><span class="service__link-text"> Learn More </span>
+                      <i class="fa-solid fa-arrow-right service__link-icon"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--End Service Section -->
+
+          <section class="discount-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-3" style="padding-right: 0px">
+                  <div class="card card-image-left">
+                    <img
+                      src="./assets/images/services/background-image-left.avif"
+                      alt="Food Item 1"
+                    />
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                  <div class="card card-image-right">
+                    <img
+                      src="./assets/images/services/background-image-right.avif"
+                      alt="Food Item 2"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div class="discount-details">
+                    <p class="title">Place Your Order Online</p>
+                    <h3>
+                      Enjoy a <span>10% Discount</span> on Your First Order
+                    </h3>
+                    <p class="description">
+                      Place your meal order online today and enjoy a special 10%
+                      discount on your first purchase. Don't miss out on this
+                      exclusive offer! Order now to save on your delicious meal.
+                    </p>
+                    <div class="toggle-book">
+                      <input type="checkbox" id="book-table-toggle" />
+                      <label for="book-table-toggle" class="toggle-label">
+                        <span class="toggle-text">Book Table</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="testimonial-container">
+            <div class="testimonial-content">
+              <h1>Testimonial</h1>
+              <div class="title-line"></div>
+              <h3>Restaurant Food</h3>
+              <img
+                class="quote-icon"
+                src="./assets/images/services/quote-icon-2.svg"
+              />
+              <p>
+                Place your meal order online today and enjoy a special 10%
+                discount on your first purchase. Don't miss out on this
+                exclusive offer! Order now to save on your delicious meal.
+              </p>
+              <span class="testimonial-author"
+                >• &ThinSpace; &ThinSpace; Brooklyn Simmons</span
+              >
+            </div>
+            <div class="testimonial-image">
+              <img
+                src="./assets/images/services/testimonial-image.jpg"
+                alt="Testimonial Image"
+              />
+            </div>
+            <div class="testimonial-navigation">
+              <button class="nav-btn nav-prev">
+                <img
+                  src="./assets/images/services/privous-arrowpng.png"
+                  alt="Previous"
+                />
+              </button>
+              <button class="nav-btn nav-next">
+                <img src="./assets/images/services/next-arrow.png" alt="Next" />
+              </button>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
- 
-    <div class="testimonial-container">
-      <div class="testimonial-content">
-        <h1>Testimonial</h1>
-        <div class="title-line"></div>
-        <h3>Restaurant Food</h3>
-        <img class="quote-icon" src="./assets/images/services/quote-icon-2.svg">
-        <p>
-          Place your meal order online today and enjoy a special 10% discount on your first
+          <!--Start Icon Slider Section -->
+          <section class="featured-brands py-5">
+            <div class="container text-center">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      class="swiper-logo"
+                      src="./assets/images/icon-brand/logo-1.png"
+                      alt="Circle brand"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="swiper-logo"
+                      src="./assets/images/icon-brand/logo-2.png"
+                      alt="Earth 2.0 brand"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="swiper-logo"
+                      src="./assets/images/icon-brand/logo-3.png"
+                      alt="Goldline brand"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="swiper-logo"
+                      src="./assets/images/icon-brand/logo-4.png"
+                      alt="Line AI brand"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="swiper-logo"
+                      src="./assets/images/icon-brand/logo-5.png"
+                      alt="UTOSIA brand"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--End Icon Slider Section -->
+        </main>
 
-          purchase. Don't miss out on this exclusive offer! Order now to save on your delicious
+        <!--------------- Footer --------------->
+        <footer class="footer">
+          <div class="container-md">
+            <div class="footer-link">
+              <div class="row justify-content-between">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer-col">
+                    <div class="footer-logo mb-4">
+                      <a href="index.html">
+                        <img
+                          src="./assets/images/the-cafika-logos.png"
+                          alt="logo"
+                        />
+                      </a>
+                    </div>
 
-          meal.
-        </p>
-        <span class="testimonial-author">• &ThinSpace; &ThinSpace; Brooklyn Simmons</span>
-      </div>
-      <div class="testimonial-image">
-        <img src="./assets/images/services/testimonial-image.jpg" alt="Testimonial Image">
-      </div>
-      <div class="testimonial-navigation">
-        <button class="nav-btn nav-prev">
-          <img src="./assets/images/services/privous-arrowpng.png" alt="Previous">
-        </button>
-        <button class="nav-btn nav-next">
-          <img src="./assets/images/services/next-arrow.png" alt="Next">
-        </button>
-      </div>
-    </div>
+                    <p class="mb-4">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has...
+                    </p>
 
+                    <div class="social-icon d-flex align-items-center">
+                      <div class="color-change">
+                        <a
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          class="d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </div>
 
+                      <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        class="d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fab fa-instagram"></i>
+                      </a>
 
+                      <a
+                        href="https://x.com/?lang=en"
+                        target="_blank"
+                        class="d-flex align-items-center justify-content-center"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
 
-  <script src="./assets/js/main.js"></script>
-</body>
-</html>
-</body>
+                      <a
+                        href="https://in.linkedin.com/"
+                        target="_blank"
+                        class="d-flex align-items-center justify-content-center"
+                        ><i class="fab fa-linkedin-in"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                  <div class="footer-col">
+                    <div class="footer-title position-relative">
+                      <h2>Menu</h2>
+                    </div>
+
+                    <div class="footer-menu">
+                      <a href="index.html">Home</a>
+
+                      <a href="about-us.html">About Us</a>
+
+                      <a href="reservation.html">Reservation</a>
+
+                      <a href="blog.html">Blogs</a>
+
+                      <a href="contact-us.html">Contact</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                  <div class="footer-col">
+                    <div class="footer-title position-relative">
+                      <h2>Services</h2>
+                    </div>
+
+                    <div class="footer-menu">
+                      <a href="services.html">Services 01</a>
+
+                      <a href="services.html">Services 02</a>
+
+                      <a href="services.html">Services 03</a>
+
+                      <a href="services.html">Services 04</a>
+
+                      <a href="services.html">Services 05</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="footer-col">
+                    <div class="footer-title position-relative">
+                      <h2>Find Us</h2>
+                    </div>
+
+                    <div class="footer-contact">
+                      <ul class="d-flex align-items-center">
+                        <li><i class="fas fa-phone-alt"></i></li>
+
+                        <li>
+                          <a href="tel:911234567890">+91 12 34 56 78 90</a>
+                        </li>
+                      </ul>
+
+                      <ul class="d-flex align-items-center">
+                        <li><i class="fas fa-at"></i></li>
+
+                        <li>
+                          <a href="mailto:info@thekafika.com"
+                            >info@thekafika.com</a
+                          >
+                        </li>
+                      </ul>
+
+                      <ul class="d-flex m-0">
+                        <li><i class="fas fa-map-marker-alt"></i></li>
+
+                        <li>
+                          <a href="https://maps.google.com/" target="_blank"
+                            >3891 Ranchview Dr. Richardson, California 62639</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="footer-copyright">
+              <div class="bottom-text d-flex justify-content-center">
+                <p>© Copyright 2024 - TheKafika - All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- minified Bootstrap JavaScript bundle file-->
+        <script src="./assets/js/libs/bootstrap.bundle.min.js"></script>
+        <!-- JS File for Swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <!-- external JavaScript file -->
+        <script src="assets/js/main.js"></script>
+      </body>
+    </html>
+  </body>
 </html>

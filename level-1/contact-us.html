@@ -1,11 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact-us</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to our Contact Us page! Get in touch with us to book your table or find our location. Explore our contact details and full address along with an accurate map to our restaurant."
+    />
+    <title>Contact Us | Restaurant</title>
+
+    <!-- Font Faces -->
+    <link rel="stylesheet" href="./assets/css/libs/all.min.css" />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./assets/css/libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/contact.style.css" />
+  </head>
+  <body>
+    <!--------------- Header Nav --------------->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-color">
+        <div
+          class="container-fluid d-flex justify-content-between aligin-items-center"
+        >
+          <a href="./index.html" class="logo-container navbar-brand">
+            <img src="./assets/images/the-cafika-logos.png" alt="Kafika logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" aria-current="page">
+                  Home
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      d="M207 381.5L12.7 187.1c-9.4-9.4-9.4-24.6 0-33.9l22.7-22.7c9.4-9.4 24.5-9.4 33.9 0L224 284.5l154.7-154c9.4-9.3 24.5-9.3 33.9 0l22.7 22.7c9.4 9.4 9.4 24.6 0 33.9L241 381.5c-9.4 9.4-24.6 9.4-33.9 0z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact-us.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+            </ul>
+            <div class="circle"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--------------- Contact Us Section --------------->
+    <main class="contact">
+      <!--------------- Header Page --------------->
+      <section class="header-page text-center">
+        <div class="container">
+          <h1 class="heading__primary mb-4 mb-md-5 hidden animate--bottom">
+            Contact Us
+          </h1>
+          <a
+            href="../index.html"
+            class="btn btn--primary hidden animate--bottom"
+            >Home / Contact Us</a
+          >
+        </div>
+      </section>
+
+      <!--------------- Map  --------------->
+      <section class="map">
+        <div
+          class="text-center col-10 col-md-6 mx-auto mb-5 p-5 hidden animate--bottom"
+        >
+          <h2 class="heading__secondary">Get In Touch</h2>
+          <p class="sub__heading">
+            Feel free to reach out if you need more information. We're here to
+            help and to happy to provide any assistance you require.
+          </p>
+        </div>
+
+        <div class="map__container mt-5">
+          <div class="map__overlay">
+            <iframe
+              scrolling="no"
+              loading="lazy"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div class="container">
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-center shadow-sm contact-info"
+          >
+            <div class="contact-info__item hidden animate--right">
+              <i class="fa-solid fa-location-dot contact-info__icon"></i>
+              <h4 class="contact-info__title mb-3">Office Address</h4>
+              <p class="contact-info__text mb-5">
+                4140 Parker Rd. Allentown, New Maxico 31134
+              </p>
+            </div>
+            <div class="contact-info__item hidden animate--bottom">
+              <i class="fa fa-phone contact-info__icon"></i>
+              <h4 class="contact-info__title mb-3">Phone Number</h4>
+              <p class="contact-info__text mb-0">+99 12345 67890</p>
+              <p class="contact-info__text mb-5 mb-md-0">+99 12345 67890</p>
+            </div>
+            <div class="contact-info__item hidden animate--left">
+              <i class="fa fa-envelope contact-info__icon"></i>
+              <h4 class="contact-info__title mb-3">Email Address</h4>
+              <p class="contact-info__text mb-0">testing123@example.com</p>
+              <p class="contact-info__text mb-0">testing321@example.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--------------- Call To Action --------------->
+      <section class="cta">
+        <div class="container">
+          <div class="row justify-content-between">
+            <form
+              class="cta__form col-lg-7 rounded order-3 order-lg-0 hidden animate--left"
+            >
+              <h4 class="cta__title">Send A Message</h4>
+              <p class="cta__text sub__heading mb-5">
+                Drop Us a Line: Feel free to send us a message with any
+                inquiries, comments, or feedback. We're here and eager assist
+                you.
+              </p>
+              <div class="row">
+                <div class="col-12 col-sm-6 mb-4 hidden animate--bottom">
+                  <input
+                    type="text"
+                    class="cta__input w-100"
+                    placeholder="First Name"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-sm-6 mb-4 hidden animate--bottom">
+                  <input
+                    type="text"
+                    class="cta__input w-100"
+                    placeholder="Last Name"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-sm-6 mb-4 hidden animate--bottom">
+                  <input
+                    type="email"
+                    class="cta__input w-100"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-sm-6 mb-4 hidden animate--bottom">
+                  <input
+                    type="text"
+                    class="cta__input w-100"
+                    placeholder="Company Name"
+                    required
+                  />
+                </div>
+                <div class="col-12 mb-5 hidden animate--bottom">
+                  <textarea
+                    type="text"
+                    class="cta__input w-100"
+                    placeholder="Comment"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="btn btn--secondary hidden animate--bottom"
+              >
+                <span class="btn--secondary-text"> Book Table </span>
+              </button>
+            </form>
+            <div
+              class="col-lg-5 cta__photo-box rounded order-1 order-lg-0 hidden animate--right"
+            >
+              <img
+                class="cta__photo w-100 h-100"
+                src="./assets/images/contact/contact-send-message.png"
+                alt="Delicious restaurant dishes on a table with a cozy ambiance"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--------------- Footer --------------->
+    <footer class="footer">
+      <div class="container-md">
+        <div class="footer-link">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-logo mb-4">
+                  <a href="index.html">
+                    <img
+                      src="./assets/images/the-cafika-logos.png"
+                      alt="logo"
+                    />
+                  </a>
+                </div>
+
+                <p class="mb-4">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has...
+                </p>
+
+                <div class="social-icon d-flex align-items-center">
+                  <div class="color-change">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="d-flex align-items-center justify-content-center"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+
+                  <a
+                    href="https://x.com/?lang=en"
+                    target="_blank"
+                    class="d-flex align-items-center justify-content-center"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+
+                  <a
+                    href="https://in.linkedin.com/"
+                    target="_blank"
+                    class="d-flex align-items-center justify-content-center"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-title position-relative">
+                  <h2>Menu</h2>
+                </div>
+
+                <div class="footer-menu">
+                  <a href="index.html">Home</a>
+
+                  <a href="about-us.html">About Us</a>
+
+                  <a href="reservation.html">Reservation</a>
+
+                  <a href="blog.html">Blogs</a>
+
+                  <a href="contact-us.html">Contact</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-title position-relative">
+                  <h2>Services</h2>
+                </div>
+
+                <div class="footer-menu">
+                  <a href="services.html">Services 01</a>
+
+                  <a href="services.html">Services 02</a>
+
+                  <a href="services.html">Services 03</a>
+
+                  <a href="services.html">Services 04</a>
+
+                  <a href="services.html">Services 05</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="footer-col">
+                <div class="footer-title position-relative">
+                  <h2>Find Us</h2>
+                </div>
+
+                <div class="footer-contact">
+                  <ul class="d-flex align-items-center">
+                    <li><i class="fas fa-phone-alt"></i></li>
+
+                    <li><a href="tel:911234567890">+91 12 34 56 78 90</a></li>
+                  </ul>
+
+                  <ul class="d-flex align-items-center">
+                    <li><i class="fas fa-at"></i></li>
+
+                    <li>
+                      <a href="mailto:info@thekafika.com">info@thekafika.com</a>
+                    </li>
+                  </ul>
+
+                  <ul class="d-flex m-0">
+                    <li><i class="fas fa-map-marker-alt"></i></li>
+
+                    <li>
+                      <a href="https://maps.google.com/" target="_blank"
+                        >3891 Ranchview Dr. Richardson, California 62639</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="footer-copyright">
+          <div class="bottom-text d-flex justify-content-center">
+            <p>© Copyright 2024 - TheKafika - All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--------------- JS File --------------->
+    <script src="./assets/js/libs/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>

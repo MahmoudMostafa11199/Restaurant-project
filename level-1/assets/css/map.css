@@ -1,0 +1,20 @@
+.map__container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 49em) {
+  .map__container {
+    height: 400px;
+  }
+}
+.map__container iframe {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.map__overlay {
+  height: 100%;
+  background-color: #534930;
+}
