@@ -1,0 +1,235 @@
+.portfolio {
+  .portfolio-area {
+    li {
+      button {
+        font-family: $primary-font;
+        font-weight: 600;
+        background-color: white;
+        border: 1px solid $primary-color; /* Red border by default */
+        color: $primary-color !important;
+        padding: 10px 20px; /* Adjust the padding to control the size */
+        border-radius: 50px;
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: all 0.5s ease; /* Smooth transition for hover effect */
+        margin: 5px;
+
+        &.active,
+        &:hover {
+          color: white !important;
+          background-color: $primary-color !important;
+        }
+      }
+    }
+
+    .portfolio-item {
+      @media only screen and (max-width: 991.98px) {
+        margin: 20px 0 0 0;
+      }
+      @media only screen and (max-width: 1199.9px) {
+        margin: 30px 0 0 0;
+      }
+      @media only screen and (max-width: 1399.98px) {
+        margin: 40px 0 0 0;
+      }
+      @media only screen and (max-width: 1199.9px) {
+        margin: 30px 0 0 0;
+      }
+
+      .item-box-two {
+        background-color: $bg-color;
+        border-radius: 20px;
+        padding: 30px 20px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        max-width: 424px;
+        align-items: center;
+
+        @media (max-width: 767.98px) {
+          padding: 0 15px 15px 15px;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+        }
+
+        @media (max-width: 1199.98px) {
+          background-color: $bg-color;
+          border-radius: 20px;
+          padding: 20px 10px;
+        }
+
+        @media (max-width: 991.98px) {
+          padding: 15px 10px;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+        }
+
+        @media (max-width: 1399.98px) {
+          padding: 25px 15px;
+        }
+
+        .offer-lable {
+          position: absolute;
+          top: 15px;
+          right: -26px;
+          transform: rotate(45deg);
+          background-color: #fff;
+          width: 115px;
+          text-align: center;
+
+          span {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 14px;
+            color: $primary-color;
+          }
+        }
+
+        .food-item {
+          max-width: 116px;
+          width: 116px;
+          img {
+            max-width: 100%;
+            height: auto;
+            @media (max-width: 1199.98px) {
+              max-width: 100px;
+            }
+
+            @media (max-width: 767.98px) {
+              max-width: 115px;
+            }
+
+            @media (max-width: 1199.98px) {
+              max-width: 100px;
+            }
+          }
+        }
+
+        .item-detail {
+          p {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19px;
+            color: #b28e6a;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin: 0 0 5px 0;
+
+            @media (max-width: 991.98px) {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+            }
+            @media ((max-width: 767.98px)) {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+            }
+
+            @media (max-width: 1199.98px) {
+              font-size: 14px;
+              line-height: 16px;
+              margin: 0 0 5px 0;
+            }
+
+            i {
+              font-size: 12px;
+              margin: 0 0 0 5px;
+              @media (max-width: 1199.98px) {
+                font-size: 10px;
+                margin: 0 0 1px 2px;
+              }
+            }
+          }
+
+          h3 {
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 29.4px;
+            color: #000000;
+            margin: 0 0 5px 0;
+            transition: all 0.5s;
+            font-family: $secondary-font;
+            @media (max-width: 1199.98px) {
+              font-size: 16px;
+            }
+          }
+          h4 {
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 32.2px;
+            color: #534930;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+          }
+          .plus-bg {
+            background-color: $secondary-color;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            border-radius: 7px;
+            transition: all 0.5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+              color: $tertiary-color;
+              transition: all 0.2s;
+              text-decoration: none;
+              i {
+                color: $quaternary-color;
+                font-size: 12px;
+                transition: all 0.5s;
+              }
+            }
+          }
+        }
+
+        &:hover {
+          color: $quaternary-color;
+          background-color: $primary-color;
+          .item-detail {
+            h3,
+            h4 {
+              color: $quaternary-color !important;
+            }
+
+            .plus-bg {
+              background-color: white !important  ;
+              a {
+                color: $tertiary-color;
+                transition: all 0.2s;
+                text-decoration: none;
+                .icon-plus {
+                  color: $primary-black;
+                  font-size: 12px;
+                  transition: all 0.5s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

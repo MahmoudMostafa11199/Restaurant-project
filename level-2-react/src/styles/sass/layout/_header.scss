@@ -1,0 +1,33 @@
+.header {
+  .navbar {
+    background-color: $tertiary-color;
+    .container-fluid {
+      max-width: 1590px;
+    }
+  }
+
+  .nav {
+    &-link {
+      &:link,
+      &:visited {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-right: 2.5rem;
+        color: $secondary-gray !important;
+
+        svg {
+          fill: $secondary-gray;
+        }
+
+        &:hover,
+        &:active {
+          color: $secondary-color !important;
+
+          svg {
+            fill: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+}
