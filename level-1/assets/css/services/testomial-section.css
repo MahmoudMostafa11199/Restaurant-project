@@ -1,0 +1,432 @@
+
+.testimonial-content h3 {
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    color: #534930;
+    text-align: center;
+    font-family: 'DMSans-SemiBold';
+}
+
+.testimonial-content p {
+    font-size: 1.5rem;
+    color: #333;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'DMSans-Light';
+}
+
+.testimonial-content .testimonial-author {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #a29577;
+    font-family: 'DMSans-SemiBold';
+
+}
+
+.testimonial-image {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 70%;
+}
+
+.testimonial-image img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.testimonial-navigation {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+}
+
+.quote-icon{
+    text-align: center;
+}
+.testimonial-author{
+    color: #e8bf91;;
+    text-align: center;
+    line-height: 26px;
+    font-size: 23px;
+    font-weight:bold;
+    padding-bottom: 4em;
+}
+.testimonial-navigation {
+    position: absolute; 
+    top: 87%; 
+    left: 49%;
+    right: 53%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    transform: translateY(-50%); 
+    pointer-events: none; 
+}
+.nav-btn {
+    border: none;
+    /* border-radius: 50%; */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    pointer-events: all; 
+}
+.nav-btn img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 1024px) {
+    .testimonial-content p {
+        font-size: 18px;
+    }
+    .testimonial-content h1 {
+        font-size: 1.6em;
+    }
+    .testimonial-content h3 {
+        font-size: 1.3rem;
+    }
+    .testimonial-container {
+        flex-direction: column; 
+        margin-top: 29em;
+        width: 88%;
+        margin-left: 83px;
+        
+   }
+   /* .testimonial-content{
+    font-size: 1.2em;
+   } */
+
+    .discount-section {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px;
+    }
+
+    .card-image-left, .card-image-right {
+        width: 100%;
+        padding-bottom: 0px;
+        height: 350px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+       
+    }
+    .title{
+        font-size: 16px;
+    }
+
+    .discount-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: auto;
+        top: 155%;
+        left: 46%;
+        margin-top: 0px;
+         margin-top: 2em; 
+    }
+
+    .discount-details h3 {
+        font-size: 32px;
+    }
+
+    .discount-details .description {
+        font-size: 16px;
+    }
+    .testimonial-container {
+        width: 75%;
+    }
+    .testimonial-navigation {
+        top: 90%;
+        left: 70%;
+    }
+
+ 
+    
+}
+@media (max-width: 768px) {
+    .testimonial-content p {
+        font-size: 1rem;
+    }
+    .testimonial-container {
+         flex-direction: column;
+         margin-top: 29em;
+         width: 80%;
+         margin-left: 50px;
+         margin-right: 50px;
+         padding: 0px
+        
+    }
+
+    .testimonial-content {
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+      
+    }
+
+    .testimonial-image {
+        height: 200px;
+       
+    }
+
+    .testimonial-image img {
+        object-fit: cover;
+       
+    }
+
+    .discount-section {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5px;
+    }
+
+    .card-image-left img,
+    .card-image-right img  {
+        width: 100%;
+        padding-bottom: 0px;
+        height: 400px;
+        margin-right: 0px;
+        
+    }
+
+    .discount-details {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 165%;
+        left: 44%;
+        margin-top: 0em; 
+
+    }
+    .title{
+        font-size: 16px;
+    }
+
+    .discount-details h3 {
+        font-size: 32px;
+        font-family: 'solid-900-ttf';
+    }
+
+    .discount-details .description {
+        font-size: 16px;
+        font-family: 'brands-400-ttf';
+    }
+}
+@media (max-width: 552px) {
+    .testimonial-container{
+        flex-direction: column;
+         margin-top: 31em;
+         width: 93%;
+         margin-left: 10px; 
+         margin-right: 10px;
+
+    }
+    .testimonial-content h2 {
+        font-size: 20px;
+    }
+
+    .testimonial-content h4 {
+        font-size: 16px;
+    }
+
+    .testimonial-content p {
+        font-size: 14px;
+        font-family: 'brands-400-ttf';
+    }
+
+    .testimonial-content .quote {
+        font-size: 24px;
+    }
+
+    .testimonial-content .author {
+        font-size: 12px;
+        font-family: 'solid-900-ttf';
+    }
+    .discount-section {
+        flex-wrap: wrap;
+        margin-right: 5px;
+        margin-left: 5px;
+        gap: 5px;
+    }
+    .card-image-left,
+    .card-image-right {
+        width: 550px;
+        height: 205px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .discount-details {
+        /* width: 87%;
+        height: auto;
+        padding:  15px ;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-top: 0px; */
+
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: auto;
+        top: 155%;
+        left: 46%;
+        margin-top: 0px;
+         margin-top: 1em; 
+       
+    }
+    .title{
+        font-size: 12px;
+    }
+
+    .discount-details h3 {
+        font-size: 28px;
+        font-family: 'DmSans-Bold';
+    }
+
+    .discount-details p {
+        font-size: 14px;
+        font-family: 'solid-900-ttf';
+    }
+
+    .book-btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+
+}
+@media (max-width: 450px) {
+    .testimonial-container{
+        flex-direction: column;
+         margin-top: 32em;
+         width: 90%;
+         margin-left: 10px; 
+         margin-right: 10px;
+    }
+    .testimonial-content h2 {
+        font-size: 20px;
+    }
+
+    .testimonial-content h4 {
+        font-size: 16px;
+    }
+
+    .testimonial-content p {
+        font-size: 14px;
+    }
+
+    .testimonial-content .quote {
+        font-size: 24px;
+    }
+
+    .testimonial-content .author {
+        font-size: 12px;
+    }
+    .discount-section {
+        flex-wrap: wrap;
+        margin-right: 5px;
+        margin-left: 5px;
+        gap: 5px;
+    }
+    .card-image-left,
+    .card-image-right {
+        width: 550px;
+        height: 205px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .discount-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 75%;
+        height: auto;
+        top: 160%;
+        left: 46%;
+        margin: 0px;
+        margin-left: 10px;
+       
+    }
+    .title{
+        font-size: 12px;
+    }
+
+    .discount-details h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .discount-details p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .book-btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+}
+@keyframes rotate-scale {
+    0% {
+        transform: rotate(0deg) scale(1); 
+    }
+    50% {
+        transform: rotate(180deg) scale(1.5); 
+    }
+    100% {
+        transform: rotate(360deg) scale(1); 
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100px); 
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+
+@keyframes scroll-animation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@font-face {
+    font-family: 'brands-400-ttf';
+    src: url('../webfonts/fa-brands-400.ttf') format('truetype'); 
+    font-family: 'brands-400-woff2';
+    src: url('../webfonts/fa-brands-400.woff2') format('truetype'); 
+    font-family: 'regular-400-ttf';
+    src: url('../webfonts/fa-regular-400.ttf') format('truetype'); 
+    font-family: 'DMSans-Medium-woff2';
+    src: url('../webfonts/fa-solid-900.woff2') format('truetype'); 
+    font-family: 'solid-900-ttf';
+    src: url('../webfonts/fa-solid-900.ttf') format('truetype'); 
+    font-family: 'regular-400-woff2';
+    src: url('../webfonts/fa-regular-400.woff2') format('truetype'); 
+    
+}
