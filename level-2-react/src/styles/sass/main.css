@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 300;
   font-size: 1.6rem;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Syne", sans-serif;
+  font-family: 'Syne', sans-serif;
 }
 
 ul {
@@ -109,7 +109,8 @@ textarea {
     font-size: 1.6rem;
   }
 }
-.btn:hover, .btn:active {
+.btn:hover,
+.btn:active {
   background-color: #7d634a !important;
 }
 .btn--secondary {
@@ -139,13 +140,16 @@ textarea {
   z-index: 999;
   transition: color 0.3s ease-in-out;
 }
-.btn--secondary:hover, .btn--secondary:active {
+.btn--secondary:hover,
+.btn--secondary:active {
   color: #b28e6a;
 }
-.btn--secondary:hover .btn--secondary-icon, .btn--secondary:active .btn--secondary-icon {
+.btn--secondary:hover .btn--secondary-icon,
+.btn--secondary:active .btn--secondary-icon {
   width: calc(100% - 0.8rem);
 }
-.btn--secondary:hover .btn--secondary-text, .btn--secondary:active .btn--secondary-text {
+.btn--secondary:hover .btn--secondary-text,
+.btn--secondary:active .btn--secondary-text {
   color: #534930;
 }
 
@@ -194,7 +198,7 @@ textarea {
 }
 .cta__photo {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .logo-container {
@@ -232,7 +236,7 @@ textarea {
 }
 
 .portfolio .portfolio-area li button {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 600;
   background-color: white;
   border: 1px solid #534930; /* Red border by default */
@@ -243,7 +247,8 @@ textarea {
   transition: all 0.5s ease; /* Smooth transition for hover effect */
   margin: 5px;
 }
-.portfolio .portfolio-area li button.active, .portfolio .portfolio-area li button:hover {
+.portfolio .portfolio-area li button.active,
+.portfolio .portfolio-area li button:hover {
   color: white !important;
   background-color: #534930 !important;
 }
@@ -384,7 +389,7 @@ textarea {
   color: #000000;
   margin: 0 0 5px 0;
   transition: all 0.5s;
-  font-family: "Syne", sans-serif;
+  font-family: 'Syne', sans-serif;
 }
 @media (max-width: 1199.98px) {
   .portfolio .portfolio-area .portfolio-item .item-box-two .item-detail h3 {
@@ -409,12 +414,25 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-.portfolio .portfolio-area .portfolio-item .item-box-two .item-detail .plus-bg a {
+.portfolio
+  .portfolio-area
+  .portfolio-item
+  .item-box-two
+  .item-detail
+  .plus-bg
+  a {
   color: #faf4ed;
   transition: all 0.2s;
   text-decoration: none;
 }
-.portfolio .portfolio-area .portfolio-item .item-box-two .item-detail .plus-bg a i {
+.portfolio
+  .portfolio-area
+  .portfolio-item
+  .item-box-two
+  .item-detail
+  .plus-bg
+  a
+  i {
   color: #fff;
   font-size: 12px;
   transition: all 0.5s;
@@ -427,15 +445,33 @@ textarea {
 .portfolio .portfolio-area .portfolio-item .item-box-two:hover .item-detail h4 {
   color: #fff !important;
 }
-.portfolio .portfolio-area .portfolio-item .item-box-two:hover .item-detail .plus-bg {
+.portfolio
+  .portfolio-area
+  .portfolio-item
+  .item-box-two:hover
+  .item-detail
+  .plus-bg {
   background-color: white !important;
 }
-.portfolio .portfolio-area .portfolio-item .item-box-two:hover .item-detail .plus-bg a {
+.portfolio
+  .portfolio-area
+  .portfolio-item
+  .item-box-two:hover
+  .item-detail
+  .plus-bg
+  a {
   color: #faf4ed;
   transition: all 0.2s;
   text-decoration: none;
 }
-.portfolio .portfolio-area .portfolio-item .item-box-two:hover .item-detail .plus-bg a .icon-plus {
+.portfolio
+  .portfolio-area
+  .portfolio-item
+  .item-box-two:hover
+  .item-detail
+  .plus-bg
+  a
+  .icon-plus {
   color: #000;
   font-size: 12px;
   transition: all 0.5s;
@@ -456,7 +492,8 @@ textarea {
   color: #000;
   margin-bottom: 1.6rem;
 }
-.service__link:link, .service__link:visited {
+.service__link:link,
+.service__link:visited {
   color: #a3a3a3;
   font-weight: 600;
   display: flex;
@@ -476,7 +513,8 @@ textarea {
   display: flex;
   gap: 0.8rem;
 }
-.social__link:link, .social__link:visited {
+.social__link:link,
+.social__link:visited {
   width: 2.4rem;
   height: 2.4rem;
   background-color: #b28e6a;
@@ -485,7 +523,8 @@ textarea {
   padding: 1.6rem;
   transition: all 0.3s ease;
 }
-.social__link:hover, .social__link:active {
+.social__link:hover,
+.social__link:active {
   background-color: #534930;
 }
 .social--header.social__list {
@@ -574,7 +613,7 @@ textarea {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
 }
 
@@ -654,7 +693,7 @@ iframe {
   cursor: pointer;
 }
 .latest-articles .article-box h4 {
-  font-family: "DM sans", sans-serif;
+  font-family: 'DM sans', sans-serif;
   font-size: 1.9rem;
   margin-top: 0.3rem;
   color: #fff;
@@ -671,19 +710,27 @@ iframe {
 .header .navbar .container-fluid {
   max-width: 1590px;
 }
-.header .nav-link:link, .header .nav-link:visited {
+.header .nav-link:link,
+.header .nav-link:visited {
   font-size: 1.8rem;
   font-weight: 500;
   margin-right: 2.5rem;
   color: #535353 !important;
 }
-.header .nav-link:link svg, .header .nav-link:visited svg {
+.header .nav-link:link svg,
+.header .nav-link:visited svg {
   fill: #535353;
 }
-.header .nav-link:link:hover, .header .nav-link:link:active, .header .nav-link:visited:hover, .header .nav-link:visited:active {
+.header .nav-link:link:hover,
+.header .nav-link:link:active,
+.header .nav-link:visited:hover,
+.header .nav-link:visited:active {
   color: #b28e6a !important;
 }
-.header .nav-link:link:hover svg, .header .nav-link:link:active svg, .header .nav-link:visited:hover svg, .header .nav-link:visited:active svg {
+.header .nav-link:link:hover svg,
+.header .nav-link:link:active svg,
+.header .nav-link:visited:hover svg,
+.header .nav-link:visited:active svg {
   fill: #b28e6a;
 }
 
@@ -696,7 +743,8 @@ iframe {
   flex-direction: column;
   align-items: start;
 }
-.footer__link:link, .footer__link:visited {
+.footer__link:link,
+.footer__link:visited {
   color: #000;
   font-weight: 400;
   font-size: 2rem;
@@ -708,13 +756,13 @@ iframe {
   color: #534930;
 }
 .footer__title {
-  font-family: "Syne", sans-serif;
+  font-family: 'Syne', sans-serif;
   font-size: 2.6rem;
   color: #534930;
   margin-bottom: 2.2rem;
 }
 .footer__title::before {
-  content: "";
+  content: '';
   background-color: #534930;
   width: 3rem;
   height: 0.25rem;
@@ -780,7 +828,7 @@ iframe {
   line-height: 29.4px;
   text-transform: capitalize;
   margin: 0 0 10px 0;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 @media (max-width: 991.98px) {
   .portfolio-section .main-title-two h3 {
@@ -846,7 +894,7 @@ iframe {
   width: 100px;
 }
 .table-reservation .order {
-  background-image: url("/public/images/composition-traditional-indonesian-bakso.jpg");
+  background-image: url('/public/images/composition-traditional-indonesian-bakso.jpg');
   background-position: center;
   background-size: cover;
   background-color: gray;
@@ -860,7 +908,7 @@ iframe {
 .table-reservation .order h3,
 .table-reservation .order h6 {
   color: #000000;
-  font-family: "Syne", sans-serif !important;
+  font-family: 'Syne', sans-serif !important;
   font-weight: 500 !important;
   color: #ffffff;
 }
@@ -871,7 +919,7 @@ iframe {
   font-size: 4.5rem;
 }
 .table-reservation .order p {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   padding-inline: 15rem;
   text-align: center;
   font-size: 2rem;
@@ -886,7 +934,7 @@ iframe {
   padding-block: 64px;
 }
 .about .section-title h4 {
-  font-family: "Syne", sans-serif;
+  font-family: 'Syne', sans-serif;
   color: #000;
   font-weight: 600;
   line-height: 41.4px;
@@ -915,7 +963,7 @@ iframe {
   height: 0px;
 }
 .about .section-title p.about-text {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   margin: auto;
   color: #000;
   font-size: 20px;
@@ -926,7 +974,7 @@ iframe {
   margin-top: 150px;
 }
 .about .section-content p.text {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: #000;
   font-size: 20px;
   font-weight: 400;
@@ -934,7 +982,7 @@ iframe {
   margin: 0 0 30px 0;
 }
 .about .section-content h6 {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -942,7 +990,7 @@ iframe {
   margin: 0 0 10px 0;
 }
 .about .section-content h3 {
-  font-family: "Syne", sans-serif;
+  font-family: 'Syne', sans-serif;
   font-size: 39px;
   font-weight: 600;
   line-height: 55.8px;
@@ -954,7 +1002,7 @@ iframe {
 .about .section-content ul a {
   display: flex;
   align-items: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -1041,7 +1089,6 @@ iframe {
 
 .service-section {
   padding-block: 6.4rem;
-<<<<<<< HEAD
 }
 
 .blog-content h4,
@@ -1105,6 +1152,4 @@ iframe {
   list-style-type: disc;
   margin-left: 1.5rem;
   padding-left: 1.5rem;
-=======
->>>>>>> 8f39020a5ff1c1d1020f5c4748bef4ebafa14976
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
