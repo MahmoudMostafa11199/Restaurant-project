@@ -20,8 +20,8 @@ function Service() {
             </h2>
             <LazyLoad height={25}>
               <img
-                src="/images/service/right-leaf-icon.svg"
-                alt="Decorative right leaf icon "
+                src="/images/service/right-leaf-Icon.svg"
+                alt="Decorative right leaf icon"
               />
             </LazyLoad>
           </div>
