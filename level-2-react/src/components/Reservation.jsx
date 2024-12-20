@@ -37,6 +37,7 @@ const Reservation = () => {
     onSubmit: (values) => {
       console.log('Reservation Details:', values);
       setIsSubmitted(true);
+      formik.resetForm();
     },
   });
 
@@ -45,7 +46,7 @@ const Reservation = () => {
       <form onSubmit={formik.handleSubmit}>
         <div className="row gx-2 gy-1">
           {/* Name Field */}
-          <div className="col-md-3 col-6">
+          <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-md-3 mb-lg-0">
             <input
               type="text"
               name="name"
@@ -63,7 +64,7 @@ const Reservation = () => {
           </div>
 
           {/* Date Field */}
-          <div className="col-md-3 col-6">
+          <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-md-3 mb-lg-0">
             <input
               type="date"
               name="date"
@@ -81,7 +82,7 @@ const Reservation = () => {
           </div>
 
           {/* Time Field */}
-          <div className="col-md-3 col-6">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-0">
             <input
               type="time"
               name="time"
@@ -100,8 +101,10 @@ const Reservation = () => {
           </div>
 
           {/* Submit Button */}
-          <div className="col-md-3 col-6">
-            <Button btnType={'secondary'}>Book a table</Button>
+          <div className="col-12 col-sm-12 col-md-6 col-lg-3">
+            <Button btnType="secondary" type="submit">
+              Book a table
+            </Button>
           </div>
         </div>
       </form>

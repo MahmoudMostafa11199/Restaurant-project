@@ -11,16 +11,15 @@
   height: 700px;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .video-thumbnail {
   position: relative;
-  width: 100%;
+  width: 80%;
   height: 100%;
   cursor: pointer;
-  // background-color: $primary-color;
-  background-color: rgba($primary-black, 0.86);
+  background-color: rgba($primary-color, 0.86);
+  margin: auto;
 }
 
 .video-thumbnail img {
@@ -29,6 +28,7 @@
   object-fit: cover;
   display: block;
   opacity: 0.4;
+  margin: auto;
 }
 
 .custom-play-button {

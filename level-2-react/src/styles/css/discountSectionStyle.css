@@ -5,12 +5,12 @@
   justify-content: center;
   position: relative;
   background-color: #fff;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   margin-bottom: 30rem;
   width: 82%;
   transform: translateY(30px);
   animation: scroll-animation 5s linear infinite;
-  margin-left: 7em;
+  /* margin-left: 7em; */
   margin-top: 3%;
 }
 
@@ -28,7 +28,7 @@
 
 .card-image-left img,
 .card-image-right img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
@@ -155,14 +155,7 @@
 @media (max-width: 552px) {
   .discount-section {
     flex-wrap: wrap;
-    margin-right: 5px;
-    margin-left: 5px;
     margin-bottom: 50rem;
-  }
-
-  .card-image-left,
-  .card-image-right {
-    width: 550px;
   }
 
   .discount-details {

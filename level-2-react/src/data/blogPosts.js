@@ -9,7 +9,7 @@ export const blogPosts = [
     title: 'Delicious Cuisine: Savor Our Mouthwatering Culinary Creations!',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident...',
-    link: '/blog/blogDetailsId:1',
+    link: '/blog/1',
   },
 
   {
@@ -22,7 +22,7 @@ export const blogPosts = [
     title: 'Delicious Cuisine: Savor Our Mouthwatering Culinary Creations!',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident...',
-    link: '/blog/blogDetailsId:2',
+    link: '/blog/2',
   },
 
   {
@@ -35,7 +35,7 @@ export const blogPosts = [
     title: 'Delicious Cuisine: Savor Our Mouthwatering Culinary Creations!',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident...',
-    link: '/blog/blogDetailsId:3',
+    link: '/blog/3',
   },
 
   {
@@ -48,6 +48,6 @@ export const blogPosts = [
     title: 'Delicious Cuisine: Savor Our Mouthwatering Culinary Creations!',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident...',
-    link: '/blog/blogDetailsId:4',
+    link: '/blog/4',
   },
 ];

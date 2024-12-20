@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import LazyLoad from 'react-lazyload';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faStar } from '@fortawesome/free-solid-svg-icons';
@@ -135,12 +136,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -167,12 +168,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -199,12 +200,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -231,12 +232,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -263,12 +264,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -295,12 +296,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -327,12 +328,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -359,12 +360,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -391,12 +392,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -423,12 +424,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -455,12 +456,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -487,12 +488,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -519,12 +520,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -551,12 +552,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -583,12 +584,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -631,12 +632,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -663,12 +664,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -695,12 +696,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -727,12 +728,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -771,12 +772,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -803,12 +804,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -835,12 +836,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -867,12 +868,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -899,12 +900,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -943,12 +944,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -975,12 +976,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1007,12 +1008,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1051,12 +1052,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1083,12 +1084,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1115,12 +1116,12 @@ function Portfolio() {
                       <div className="d-flex price justify-content-between align-items-center">
                         <h4>$20.50</h4>
                         <div className="plus-bg">
-                          <a href="../Contact Us/index.html">
+                          <Link to="/Contact">
                             <FontAwesomeIcon
                               icon={faPlus}
                               className="icon-plus"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

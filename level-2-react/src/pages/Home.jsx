@@ -9,6 +9,7 @@ import RestaurantVideo from '../components/RestaurantVideo';
 import LatestArticles from '../components/LatestArticles';
 import TestominalSection from '../components/Services/TestominalSection';
 import MapContainer from '../components/Map';
+import Button from '../components/Button';
 
 function Home() {
   return (
@@ -38,17 +39,17 @@ function Home() {
                       offerings, promising an unforgettable experience for your
                       taste buds.
                     </p>
-                    <div className="order-Now" style={{ display: 'inline' }}>
-                      <button className="primary-btn">
-                        <Link to="/">
-                          <span>
-                            <FontAwesomeIcon icon={faAngleRight} />
-                            orderNow
-                          </span>
-                        </Link>
-                      </button>
+                    <div className="order-Now">
+                      <Button btnType="secondary" linkTo="/contact">
+                        Order Now
+                      </Button>
                       <Link to="/">
-                        <img src="/images/home/play-btn-vector.png" alt="" />
+                        <LazyLoad height={95} className="d-inline-block">
+                          <img
+                            src="/images/home/play-btn-vector.png"
+                            alt="Play btn"
+                          />
+                        </LazyLoad>
                       </Link>
                     </div>
                     <LazyLoad height={70}>
@@ -99,38 +100,46 @@ function Home() {
               </LazyLoad>
             </div>
             <div className="sochila col-lg-1">
-              <LazyLoad height={25}>
-                <img
-                  src="/images/Home/icons/social/facebook-icon.png"
-                  alt="Facbook icon"
-                />
-              </LazyLoad>
-              <LazyLoad height={25}>
-                <img
-                  src="/images/Home/icons/social/google-icon.png"
-                  alt="Google icon"
-                />
-              </LazyLoad>
-              <LazyLoad height={25}>
-                <img
-                  src="/images/Home/icons/social/instagram-icon.png"
-                  alt="Instegram icon"
-                />
-              </LazyLoad>
-              <LazyLoad height={25}>
-                <img
-                  src="/images/Home/icons/social/twitter-icon.png"
-                  alt="Twitter icon"
-                />
-              </LazyLoad>
+              <Link to="https://facebook.com/cookdooreg" target="_blank">
+                <LazyLoad height={25}>
+                  <img
+                    src="/images/Home/icons/social/facebook-icon.png"
+                    alt="Facbook icon"
+                  />
+                </LazyLoad>
+              </Link>
+              <Link to="https://google.c.ukm/" target="_blank">
+                <LazyLoad height={25}>
+                  <img
+                    src="/images/Home/icons/social/google-icon.png"
+                    alt="Google icon"
+                  />
+                </LazyLoad>
+              </Link>
+              <Link to="https://instagram.com/" target="_blank">
+                <LazyLoad height={25}>
+                  <img
+                    src="/images/Home/icons/social/instagram-icon.png"
+                    alt="Instegram icon"
+                  />
+                </LazyLoad>
+              </Link>
+              <Link to="https://x.com/@X?mx=2" target="_blank">
+                <LazyLoad height={25}>
+                  <img
+                    src="/images/Home/icons/social/twitter-icon.png"
+                    alt="Twitter icon"
+                  />
+                </LazyLoad>
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="MainPageSectionTwo">
+      <section className="MainPageSectionTwo py-5">
         <div className="container ">
-          <div className="row Features-Section">
+          <div className="row Features-Section row-gap-5">
             <div className="Feature col-lg-4 col-md-6 col-sm-12">
               <div className="icon">
                 <LazyLoad height={65}>
@@ -146,7 +155,7 @@ function Home() {
                   Height quality ingerdiants ensure the best taste and satation
                 </span>
               </div>
-              <span className="line"></span>
+              <span className="line d-none d-md-inline-block"></span>
             </div>
             <div className="Feature col-lg-4 col-md-6 col-sm-12">
               <div className="icon">
@@ -163,7 +172,7 @@ function Home() {
                   Height quality ingerdiants ensure the best taste and satation
                 </span>
               </div>
-              <span className="line"></span>
+              <span className="line d-none d-lg-inline-block"></span>
             </div>
             <div className="Feature col-lg-4 col-md-12 col-sm-12">
               <div className="icon">
@@ -245,7 +254,7 @@ function Home() {
       </section>
 
       <section className="portfolio-section">
-        <div class="main-title-two position-relative aos-init aos-animate">
+        <div className="main-title-two position-relative aos-init aos-animate">
           <h3>Our Popular Foods</h3>
           <img src="/images/title-border.png" alt="title-border" />
           <h2>Top Food Menu Selection</h2>
@@ -254,7 +263,7 @@ function Home() {
       </section>
 
       {/*  Start Table Reservation Section   */}
-      <section class="table-reservation position-relative">
+      <section className="table-reservation position-relative">
         <LazyLoad height={60}>
           <img
             src="/images/plate-icon-07.svg"
@@ -262,9 +271,9 @@ function Home() {
             alt="plate-icon"
           />
         </LazyLoad>
-        <div class="container">
+        <div className="container">
           <div className="row">
-            <div class="order d-flex align-items-center justify-content-center flex-column">
+            <div className="order d-flex align-items-center justify-content-center flex-column">
               <h6>Place Your Order Online</h6>
               <h3>Enjoy a 10% Discount on Your First Order</h3>
               <p>

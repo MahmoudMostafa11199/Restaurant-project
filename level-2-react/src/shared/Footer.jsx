@@ -15,7 +15,7 @@ function Footer() {
       <div className="container" data-aos="fade-in">
         <div className="pb-5">
           <div className="row justify-content-between">
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="col-sm-6 col-lg-3 mb-5 mb-lg-0 pe-sm-5">
               <div className="footer__col">
                 <Logo />
 
@@ -28,7 +28,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="col-lg-2 col-md-6 col-sm-6">
+            <div className="col-sm-6 col-lg-2 mb-5 mb-lg-0">
               <div className="footer__col">
                 <h2 className="footer__title position-relative">Menu</h2>
 
@@ -56,7 +56,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="col-lg-2 col-md-6 col-sm-6">
+            <div className="col-sm-6 col-lg-2 mb-5 mb-md-0">
               <div className="footer__col">
                 <h2 className="footer__title position-relative">Services</h2>
 
@@ -80,7 +80,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-sm-6 col-lg-4 ">
               <div className="footer__col">
                 <h2 className="footer__title position-relative">Find Us</h2>
 

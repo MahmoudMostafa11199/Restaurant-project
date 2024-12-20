@@ -1,7 +1,7 @@
 import HeaderPage from '../components/HeaderPage';
 import MapContainer from '../components/Map';
-import ContactInfo from '../components/ContactInfo';
-import CallToAction from '../components/CallToAction';
+import ContactInfo from '../components/Contact/ContactInfo';
+import CallToAction from '../components/Contact/CallToAction';
 
 function contact() {
   return (

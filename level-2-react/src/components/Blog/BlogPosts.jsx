@@ -2,10 +2,10 @@ import LazyLoad from 'react-lazyload';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments, faUser } from '@fortawesome/free-solid-svg-icons';
-import './style.css';
+import '../../styles/css/blogPostsStyle.css';
 
 import Button from '../Button';
-import BlogSidebar from '../BlogSidebar';
+import BlogSidebar from './BlogSidebar';
 import { blogPosts } from '../../data/blogPosts';
 
 export const BlogPosts = () => {

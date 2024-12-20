@@ -1,5 +1,5 @@
-import React from 'react';
-import './style.css';
+import '../../styles/css/counterStyle.css';
+
 export const Counter = () => {
   return (
     <section className="counter my-5">

@@ -105,7 +105,6 @@
     h3,
     h6 {
       color: #000000;
-      font-family: 'Syne', sans-serif !important;
       font-weight: 500 !important;
       color: #ffffff;
     }
@@ -116,14 +115,22 @@
 
     h3 {
       font-size: 4.5rem;
+      margin-bottom: 1.8rem;
     }
 
     p {
-      font-family: 'DM Sans', sans-serif;
       padding-inline: 15rem;
       text-align: center;
       font-size: 2rem;
       margin-bottom: 3rem;
+
+      @media (max-width: 900px) {
+        padding-inline: 7rem;
+      }
+
+      @media (max-width: 500px) {
+        padding-inline: 3rem;
+      }
     }
 
     &:hover {
@@ -152,6 +159,13 @@
           h1 {
             font-size: 4.96rem;
             font-weight: 400;
+
+            @media (max-width: 410px) {
+              & {
+                font-size: 4rem;
+                margin-bottom: 1.6rem;
+              }
+            }
           }
 
           .order-Now {
@@ -194,7 +208,7 @@
         @media (max-width: 1200px) {
           & {
             font-size: $default-font-size;
-            padding-left: 4.8rem;
+            padding-inline: 2.8rem;
             text-align: center;
             height: 60.8rem;
             width: 100%;
@@ -246,9 +260,10 @@
 
             /* لجعل الطبق في المنتصف تمامًا */
             img {
-              width: 32rem;
-              height: 32rem;
+              width: 25rem;
+              height: 25rem;
               animation: rotateDish 60s linear infinite;
+              margin-top: 1rem;
             }
           }
 
@@ -314,13 +329,16 @@
 }
 
 .Features-Section {
-  position: relative;
-  width: 100%;
-  display: flex;
+  font-size: $default-font-size;
   background-color: $bg-color;
   border-radius: 1.6rem;
-  font-size: $default-font-size;
+  padding: 2.4rem 3.6rem;
   margin-top: 11.2rem;
+  position: relative;
+
+  @media (max-width: 992px) {
+    margin-top: 19.2rem;
+  }
 
   .Feature {
     display: flex;
@@ -336,7 +354,10 @@
     }
 
     .content {
-      h3 {
+      padding-inline: 1rem;
+      h5 {
+        font-size: 2.2rem;
+        font-weight: 500;
         margin-block: 0.8rem;
       }
 
@@ -384,9 +405,19 @@
   .FirstBaner,
   .secondBaner {
     .baner-content {
-      font-size: 1.8rem;
       background-color: $bg-color;
       padding: 8.6rem;
+      height: 33rem;
+
+      @media (max-width: 992px) {
+        height: auto;
+      }
+
+      @media (max-width: 500px) {
+        & {
+          padding: 3rem 4rem;
+        }
+      }
     }
 
     .baner-info {

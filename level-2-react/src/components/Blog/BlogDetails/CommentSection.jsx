@@ -1,10 +1,10 @@
 import LazyLoad from 'react-lazyload';
 import Swal from 'sweetalert2';
 
-import './CommentSection.css';
+import '../../../styles/css/commentSectionStyle.css';
 
-import Button from '../Button';
-import { comments } from '../../data/comments';
+import Button from '../../Button';
+import { comments } from '../../../data/comments';
 
 const CommentSection = () => {
   const handleSubmit = (event) => {

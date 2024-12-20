@@ -1,69 +1,108 @@
 import LazyLoad from 'react-lazyload';
+import { Link, useParams } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faComments } from '@fortawesome/free-solid-svg-icons';
 
-import CommentSection from '../components/BlogDetails/CommentSection';
+import CommentSection from '../components/Blog/BlogDetails/CommentSection';
+import BlogIdNotFound from '../components/Blog/BlogDetails/BlogIdNotFound';
+import BlogSidebar from '../components/Blog/BlogSidebar';
 import HeaderPage from '../components/HeaderPage';
-import BlogSidebar from '../components/BlogSidebar';
 import Social from '../components/Social';
 
+import { getBlog } from '../utils/blog';
+
 function BlogDetails() {
+  const { blogDetailsId } = useParams();
+
+  const blog = getBlog(blogDetailsId);
+
+  if (!blog) {
+    return <BlogIdNotFound id={blogDetailsId} />;
+  }
+
   return (
-    <main className="blog-details">
+    <main className="blog-details-section">
       <HeaderPage title="Blog Details" />
 
       <div className="container">
         <div className="row">
           {/* Main Section */}
-          <div className="col-lg-8 col-md-7 mb-5">
+          <div className="col-lg-8 col-md-7 mb-5 px-5">
             {/* Blog Card */}
             <div className="blog-content">
-              <h4 className="blog-title">
-                Delicious Cuisine: Savor Our Mouthwatering Culinary Creations!
-              </h4>
-              <p className="blog-details">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <br />
-                <br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit, sed do eiusmod Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod.
-              </p>
-              <div className="author-details">
-                <h6 className="author-quote">
+              <div className="blog-card mb-4">
+                <div className="card-img position-relative">
+                  <div>
+                    <LazyLoad height={400} className="img">
+                      <img src={blog.image} alt={`blog-thumbnail-${blog.id}`} />
+                    </LazyLoad>
+                  </div>
+                  <div className="date d-flex flex-column align-items-center position-absolute">
+                    <span>{blog.date.day}</span>
+                    <span>{blog.date.month}</span>
+                  </div>
+                </div>
+
+                <div className="blog-meta mt-4 mb-4 d-flex align-items-center gap-5 flex-md-row flex-column">
+                  <Link to="/">{blog.category}</Link>
+                  <Link to={blog.link} className="fs-4">
+                    <FontAwesomeIcon icon={faUser} /> {blog.author}
+                  </Link>
+                  <Link to={blog.link} className="fs-4">
+                    <FontAwesomeIcon icon={faComments} /> Comments(
+                    {blog.comments})
+                  </Link>
+                </div>
+              </div>
+              <div className="card-body">
+                <h4 className="blog-title">{blog.title}</h4>
+                <p className="blog-details">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </h6>
-                <li className="author-name">Cameron Williamson</li>
-              </div>
-              <p className="blog-summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <div className="popular-tags">
-                <p>
-                  <span className="label tags-label me-3">Popular Tags:</span>
-                  Restaurant, Café, Food
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <br />
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit, sed do eiusmod Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do eiusmod.
                 </p>
-              </div>
-              <div className="popular-tags d-flex align-items-center">
-                <span className="label tags-label me-3 mt-3">
-                  Social Media:
-                </span>
-                <Social />
+                <div className="author-details">
+                  <h6 className="author-quote">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </h6>
+                  <li className="author-name">Cameron Williamson</li>
+                </div>
+                <p className="blog-summary">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div className="popular-tags">
+                  <p>
+                    <span className="label tags-label me-3">Popular Tags:</span>
+                    Restaurant, Café, Food
+                  </p>
+                </div>
+                <div className="popular-tags d-flex align-items-center">
+                  <span className="label tags-label me-3 mt-3">
+                    Social Media:
+                  </span>
+                  <Social />
+                </div>
               </div>
 
               <h4 className="global-experience-title">

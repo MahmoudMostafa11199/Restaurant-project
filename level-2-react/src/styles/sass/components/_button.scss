@@ -24,6 +24,16 @@
     position: relative;
     z-index: 99;
 
+    @media screen and (max-width: 62em) {
+      padding: 1.6rem 2.6rem 1.6rem 6rem !important;
+      font-size: $default-font-size;
+    }
+
+    @media screen and (max-width: 49em) {
+      padding: 1.4rem 2.2rem 1.4rem 5rem !important;
+      font-size: 1.4rem;
+    }
+
     &-icon {
       width: 5.8rem;
       height: 5.8rem;
@@ -40,6 +50,20 @@
       align-items: center;
 
       transition: all 0.3s ease-in-out;
+
+      @media screen and (max-width: 62em) {
+        width: 4.8rem;
+        height: 4.8rem;
+      }
+
+      @media screen and (max-width: 49em) {
+        width: 4rem;
+        height: 4rem;
+
+        & svg {
+          margin-left: -0.5rem;
+        }
+      }
     }
 
     &-text {
