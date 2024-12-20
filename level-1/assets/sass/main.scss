@@ -1,7 +1,192 @@
 @import 'variables';
 @import 'general';
+@import 'header';
 
 ////////// start home-page //////////
+.baner-header {
+  margin-top: 2rem;
+
+  .food-experinse {
+      .hero {
+          .hero-Heading {
+              background-color: var(--text-secondary-color);
+              color: white;
+              padding-left: 12rem;
+
+              .hero-Detalis {
+                  .sub-content {
+                      margin-top: 2.9rem;
+                      margin-left: 5px;
+                      font-size: 1rem;
+                      font-weight: bold;
+                  }
+
+                  p {
+                      font-family: "dm sans", sans-serif;
+                      color:white
+                  }
+
+                  h1 {
+                      font-size: 3.1rem;
+                      font-family: "Syne", sans-serif;
+                      font-weight: bold;
+                      color:white
+                  }
+
+                  .order-Now {
+                      a {
+                          color: white;
+                          margin-left: 1rem;
+                      }
+
+                      i {
+                          position: absolute;
+                          left: 4px;
+                          top: 3px;
+                          background-color: white;
+                          padding: 1rem;
+                          width: 3rem;
+                          color: $secondary-color;
+                          border-radius: 50%;
+                          margin: 0;
+                      }
+
+                      .primary-btn {
+                          position: relative;
+                          border-radius: 2rem;
+                          padding: 0.9rem;
+                          width: 12rem;
+                          outline: none;
+                          border: none;
+                          background-color: $secondary-color;
+                          font-size: 1.1rem;
+                          text-transform: capitalize;
+                      }
+                  }
+
+                  .arrowVector {
+                      width: 11rem;
+                      margin-left: 3rem;
+                  }
+              }
+              @media (max-width: 1200px) {
+                              &{
+                                  font-size: 1rem;
+                                  padding-left: 3rem;
+                                  text-align: center;
+                                  height: 38rem;  
+                                  width: 100%; 
+                              }
+          
+                              .hero-content {
+                                  text-align: center;
+                                  /* لتوسيط النص أيضًا */
+                              }
+                              .arrowVector {
+                                  display: none;
+                              }
+                          }
+          }
+
+          .hero-baner {
+              background: linear-gradient(to right, $text-secondary-color 50%, transparent 50%);
+              
+
+              img {
+                  width: 28rem;
+                  height: 28rem;
+                  animation: rotateDish 60s linear infinite;
+              }
+
+              @keyframes rotateDish {
+                  0% {
+                      transform: rotate(0deg);
+                  }
+
+                  100% {
+                      transform: rotate(360deg);
+                  }
+              }
+
+              @media (max-width: 1200px) {
+                  & {
+                      transition: 1s ease-in-out all;
+                      background: transparent;
+                      position: absolute;
+                      top: 100%;
+                      /* يتحرك الطبق نحو الأسفل */
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      /* لجعل الطبق في المنتصف تمامًا */
+                      img {
+                          width: 20rem;
+                          height: 20rem;
+                          animation: rotateDish 60s linear infinite;
+                      }
+                  }
+
+                  .hero-content {
+                      text-align: center;
+                      /* لتوسيط النص أيضًا */
+                  }
+              }
+          }
+      }
+  }
+
+  .sochila {
+      margin-top: 5rem;
+      padding-left: 2rem;
+
+      img {
+          display: block;
+          margin-bottom: 4rem;
+      }
+      @media (max-width: 992px) {
+          & {
+             display: none;
+          }
+      }
+  }
+
+  .dot-vector-one {
+      position: absolute;
+      top: 5rem;
+      left: 6rem;
+  }
+
+  .dot-vector-two {
+      position: absolute;
+      bottom: 4rem;
+      left: 10rem;
+  }
+
+  .dot-vector-three {
+      position: absolute;
+      bottom: 8rem;
+      left: 32rem;
+  }
+
+  .dot-vector-four {
+      position: absolute;
+      bottom: 24rem;
+      left: 32rem;
+  }
+
+  @media (max-width: 992px) {
+      & {
+          .dot-vector-one,
+          .dot-vector-two,
+          .dot-vector-three,
+          .dot-vector-four {
+              display: none;
+          }
+      }
+  }
+
+
+
+}
 ///
 //start portfolio-title
 .main-title-two {

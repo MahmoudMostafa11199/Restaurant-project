@@ -1,48 +1,38 @@
+@charset "UTF-8";
 :root {
   --primary-color: #534930;
-  --secondary-color: #b28e6a;
-  --tertiary-color: #faf4ed;
+  --secondary-color: #B28E6A;
+  --tertiary-color: #FAF4ED;
   --quaternary-color: #ffffff;
   --primary-black: #000000;
   --secondary-gray: #535353;
-  --tertiary-gray: #a3a3a3;
+  --tertiary-gray: #A3A3A3;
   --text-primary-color: #000000;
   --text-secondary-color: #534930;
-  --text-hover-color: #b28e6a;
-  --bg-color: #f7f7f7;
-  --primary-font: 'DM Sans', sans-serif;
-  --secondary-font: 'Syne', sans-serif;
+  --text-hover-color: #B28E6A;
+  --bg-color: #F7F7F7;
+  --primary-font: "DM Sans", sans-serif ;
+  --secondary-font: "Syne", sans-serif ;
 }
 
 :root {
   --primary-color: #534930;
-  --secondary-color: #b28e6a;
-  --tertiary-color: #faf4ed;
+  --secondary-color: #B28E6A;
+  --tertiary-color: #FAF4ED;
   --quaternary-color: #ffffff;
   --primary-black: #000000;
   --secondary-gray: #535353;
-  --tertiary-gray: #a3a3a3;
+  --tertiary-gray: #A3A3A3;
   --text-primary-color: #000000;
   --text-secondary-color: #534930;
-  --text-hover-color: #b28e6a;
-  --bg-color: #f7f7f7;
-  --primary-font: 'DM Sans', sans-serif;
-  --secondary-font: 'Syne', sans-serif;
+  --text-hover-color: #B28E6A;
+  --bg-color: #F7F7F7;
+  --primary-font: "DM Sans", sans-serif ;
+  --secondary-font: "Syne", sans-serif ;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: 'Syne', sans-serif;
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Syne", sans-serif;
   color: var(--text-primary-color);
   line-height: 1.4;
 }
@@ -52,15 +42,13 @@ a {
   color: black;
   outline: none;
 }
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
   text-decoration: none;
   outline: none;
 }
 
 p {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -74,6 +62,440 @@ ul {
 
 ul {
   padding: 0;
+}
+
+:root {
+  --primary-color: #534930;
+  --secondary-color: #B28E6A;
+  --tertiary-color: #FAF4ED;
+  --quaternary-color: #ffffff;
+  --primary-black: #000000;
+  --secondary-gray: #535353;
+  --tertiary-gray: #A3A3A3;
+  --text-primary-color: #000000;
+  --text-secondary-color: #534930;
+  --text-hover-color: #B28E6A;
+  --bg-color: #F7F7F7;
+  --primary-font: "DM Sans", sans-serif ;
+  --secondary-font: "Syne", sans-serif ;
+}
+
+:root {
+  --primary-color: #534930;
+  --secondary-color: #B28E6A;
+  --tertiary-color: #FAF4ED;
+  --quaternary-color: #ffffff;
+  --primary-black: #000000;
+  --secondary-gray: #535353;
+  --tertiary-gray: #A3A3A3;
+  --text-primary-color: #000000;
+  --text-secondary-color: #534930;
+  --text-hover-color: #B28E6A;
+  --bg-color: #F7F7F7;
+  --primary-font: "DM Sans", sans-serif ;
+  --secondary-font: "Syne", sans-serif ;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Syne", sans-serif;
+  color: var(--text-primary-color);
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  outline: none;
+}
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: var(--text-primary-color);
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding: 0;
+}
+
+.baner-header {
+  margin-top: 2rem;
+}
+.baner-header .food-experinse .hero .hero-Heading {
+  background-color: #534930;
+  color: white;
+  padding-left: 12rem;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .sub-content {
+  margin-top: 2.9rem;
+  margin-left: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis p {
+  font-family: "dm sans", sans-serif;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis h1 {
+  font-size: 3.1rem;
+  font-family: "Syne", sans-serif;
+  font-weight: bold;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .order-Now a {
+  color: white;
+  margin-left: 1rem;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .order-Now i {
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  background-color: white;
+  padding: 1rem;
+  width: 3rem;
+  color: #B28E6A;
+  border-radius: 50%;
+  margin: 0;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .order-Now .primary-btn {
+  position: relative;
+  border-radius: 2rem;
+  padding: 0.9rem;
+  width: 12rem;
+  outline: none;
+  border: none;
+  background-color: #B28E6A;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .arrowVector {
+  width: 11rem;
+  margin-left: 3rem;
+}
+@media (max-width: 1200px) {
+  .baner-header .food-experinse .hero .hero-Heading {
+    font-size: 1rem;
+    padding-left: 3rem;
+    text-align: center;
+    height: 38rem;
+    width: 100%;
+  }
+  .baner-header .food-experinse .hero .hero-Heading .hero-content {
+    text-align: center;
+    /* لتوسيط النص أيضًا */
+  }
+  .baner-header .food-experinse .hero .hero-Heading .arrowVector {
+    display: none;
+  }
+}
+.baner-header .food-experinse .hero .hero-baner {
+  background: linear-gradient(to right, #534930 50%, transparent 50%);
+}
+.baner-header .food-experinse .hero .hero-baner img {
+  width: 28rem;
+  height: 28rem;
+  animation: rotateDish 60s linear infinite;
+}
+@keyframes rotateDish {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 1200px) {
+  .baner-header .food-experinse .hero .hero-baner {
+    transition: 1s ease-in-out all;
+    background: transparent;
+    position: absolute;
+    top: 100%;
+    /* يتحرك الطبق نحو الأسفل */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* لجعل الطبق في المنتصف تمامًا */
+  }
+  .baner-header .food-experinse .hero .hero-baner img {
+    width: 20rem;
+    height: 20rem;
+    animation: rotateDish 60s linear infinite;
+  }
+  .baner-header .food-experinse .hero .hero-baner .hero-content {
+    text-align: center;
+    /* لتوسيط النص أيضًا */
+  }
+}
+.baner-header .sochila {
+  margin-top: 5rem;
+  padding-left: 2rem;
+}
+.baner-header .sochila img {
+  display: block;
+  margin-bottom: 4rem;
+}
+@media (max-width: 992px) {
+  .baner-header .sochila {
+    display: none;
+  }
+}
+.baner-header .dot-vector-one {
+  position: absolute;
+  top: 5rem;
+  left: 6rem;
+}
+.baner-header .dot-vector-two {
+  position: absolute;
+  bottom: 4rem;
+  left: 10rem;
+}
+.baner-header .dot-vector-three {
+  position: absolute;
+  bottom: 8rem;
+  left: 32rem;
+}
+.baner-header .dot-vector-four {
+  position: absolute;
+  bottom: 24rem;
+  left: 32rem;
+}
+@media (max-width: 992px) {
+  .baner-header .dot-vector-one,
+  .baner-header .dot-vector-two,
+  .baner-header .dot-vector-three,
+  .baner-header .dot-vector-four {
+    display: none;
+  }
+}
+
+.Features-Section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  background-color: #F7F7F7;
+  border-radius: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  margin-top: 7rem;
+}
+.Features-Section .Feature {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+.Features-Section .Feature .icon img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+.Features-Section .Feature .content h3 {
+  margin-block: 0.5rem;
+}
+.Features-Section .Feature .content span {
+  width: min(100%, 1rem);
+}
+.Features-Section .Feature .line {
+  border-right: 2px solid #B28E6A;
+  height: 4rem;
+}
+.Features-Section .WatermarkFood {
+  position: absolute;
+  bottom: 50%; /* اضبط حسب المكان اللي تريده */
+  left: 50%; /* اضبط حسب المكان اللي تريده */
+  transform: translate(-50%, 50%); /* لتوسيط العلامة المائية بدقة */
+  opacity: 0.2; /* تخفيف العلامة المائية */
+  z-index: -1; /* خلف المحتوى */
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.Features-Section .WatermarkFood img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.baners-Section {
+  position: relative;
+  margin-top: 10rem;
+}
+.baners-Section .FirstBaner, .baners-Section .secondBaner {
+  padding: 0;
+}
+.baners-Section .FirstBaner .baner-content, .baners-Section .secondBaner .baner-content {
+  background-color: #f7f7f7;
+  height: 303px;
+  padding: 30px 44px;
+  width: 100%;
+}
+.baners-Section .FirstBaner .baner-info, .baners-Section .secondBaner .baner-info {
+  font-weight: bold;
+}
+.baners-Section .WatermarkFood {
+  position: absolute;
+  top: -9rem;
+  left: 40%;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.baners-Section .WatermarkFood img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.baner-header {
+  margin-top: 2rem;
+}
+.baner-header .food-experinse .hero .hero-Heading {
+  background-color: var(--text-secondary-color);
+  color: white;
+  padding-left: 12rem;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .sub-content {
+  margin-top: 2.9rem;
+  margin-left: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis p {
+  font-family: "dm sans", sans-serif;
+  color: white;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis h1 {
+  font-size: 3.1rem;
+  font-family: "Syne", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .order-Now a {
+  color: white;
+  margin-left: 1rem;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .order-Now i {
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  background-color: white;
+  padding: 1rem;
+  width: 3rem;
+  color: #B28E6A;
+  border-radius: 50%;
+  margin: 0;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .order-Now .primary-btn {
+  position: relative;
+  border-radius: 2rem;
+  padding: 0.9rem;
+  width: 12rem;
+  outline: none;
+  border: none;
+  background-color: #B28E6A;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+.baner-header .food-experinse .hero .hero-Heading .hero-Detalis .arrowVector {
+  width: 11rem;
+  margin-left: 3rem;
+}
+@media (max-width: 1200px) {
+  .baner-header .food-experinse .hero .hero-Heading {
+    font-size: 1rem;
+    padding-left: 3rem;
+    text-align: center;
+    height: 38rem;
+    width: 100%;
+  }
+  .baner-header .food-experinse .hero .hero-Heading .hero-content {
+    text-align: center;
+    /* لتوسيط النص أيضًا */
+  }
+  .baner-header .food-experinse .hero .hero-Heading .arrowVector {
+    display: none;
+  }
+}
+.baner-header .food-experinse .hero .hero-baner {
+  background: linear-gradient(to right, #534930 50%, transparent 50%);
+}
+.baner-header .food-experinse .hero .hero-baner img {
+  width: 28rem;
+  height: 28rem;
+  animation: rotateDish 60s linear infinite;
+}
+@keyframes rotateDish {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 1200px) {
+  .baner-header .food-experinse .hero .hero-baner {
+    transition: 1s ease-in-out all;
+    background: transparent;
+    position: absolute;
+    top: 100%;
+    /* يتحرك الطبق نحو الأسفل */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* لجعل الطبق في المنتصف تمامًا */
+  }
+  .baner-header .food-experinse .hero .hero-baner img {
+    width: 20rem;
+    height: 20rem;
+    animation: rotateDish 60s linear infinite;
+  }
+  .baner-header .food-experinse .hero .hero-baner .hero-content {
+    text-align: center;
+    /* لتوسيط النص أيضًا */
+  }
+}
+.baner-header .sochila {
+  margin-top: 5rem;
+  padding-left: 2rem;
+}
+.baner-header .sochila img {
+  display: block;
+  margin-bottom: 4rem;
+}
+@media (max-width: 992px) {
+  .baner-header .sochila {
+    display: none;
+  }
+}
+.baner-header .dot-vector-one {
+  position: absolute;
+  top: 5rem;
+  left: 6rem;
+}
+.baner-header .dot-vector-two {
+  position: absolute;
+  bottom: 4rem;
+  left: 10rem;
+}
+.baner-header .dot-vector-three {
+  position: absolute;
+  bottom: 8rem;
+  left: 32rem;
+}
+.baner-header .dot-vector-four {
+  position: absolute;
+  bottom: 24rem;
+  left: 32rem;
+}
+@media (max-width: 992px) {
+  .baner-header .dot-vector-one,
+  .baner-header .dot-vector-two,
+  .baner-header .dot-vector-three,
+  .baner-header .dot-vector-four {
+    display: none;
+  }
 }
 
 .main-title-two {
@@ -178,15 +600,15 @@ ul {
   text-transform: capitalize;
   font-weight: 500;
   border-radius: 100px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   transition: all 0.5s;
   position: relative;
 }
 .portfolio .portfolio-area .primary-btn::before {
-  content: '\f061';
+  content: "\f061";
   background: #fff;
   border-radius: 50px;
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   height: 56px;
   left: 0;
@@ -205,7 +627,7 @@ ul {
 .portfolio .portfolio-area .primary-btn span {
   position: relative;
   z-index: 2;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
@@ -402,25 +824,12 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.portfolio
-  .portfolio-area
-  .portfolio-item
-  .item-box-two
-  .item-detail
-  .plus-bg
-  a {
+.portfolio .portfolio-area .portfolio-item .item-box-two .item-detail .plus-bg a {
   color: var(--tertiary-color);
   transition: all 0.2s;
   text-decoration: none;
 }
-.portfolio
-  .portfolio-area
-  .portfolio-item
-  .item-box-two
-  .item-detail
-  .plus-bg
-  a
-  i {
+.portfolio .portfolio-area .portfolio-item .item-box-two .item-detail .plus-bg a i {
   color: var(--quaternary-color);
   font-size: 12px;
   transition: all 0.5s;
@@ -433,33 +842,15 @@ ul {
 .portfolio .portfolio-area .portfolio-item .item-box-two:hover .item-detail h4 {
   color: var(--quaternary-color) !important;
 }
-.portfolio
-  .portfolio-area
-  .portfolio-item
-  .item-box-two:hover
-  .item-detail
-  .plus-bg {
+.portfolio .portfolio-area .portfolio-item .item-box-two:hover .item-detail .plus-bg {
   background-color: white !important;
 }
-.portfolio
-  .portfolio-area
-  .portfolio-item
-  .item-box-two:hover
-  .item-detail
-  .plus-bg
-  a {
+.portfolio .portfolio-area .portfolio-item .item-box-two:hover .item-detail .plus-bg a {
   color: var(--tertiary-color);
   transition: all 0.2s;
   text-decoration: none;
 }
-.portfolio
-  .portfolio-area
-  .portfolio-item
-  .item-box-two:hover
-  .item-detail
-  .plus-bg
-  a
-  .icon-plus {
+.portfolio .portfolio-area .portfolio-item .item-box-two:hover .item-detail .plus-bg a .icon-plus {
   color: var(--primary-black);
   font-size: 12px;
   transition: all 0.5s;
@@ -475,7 +866,7 @@ ul {
   left: 3rem;
 }
 .table-reservation .order {
-  background-image: url('../images/home/composition-traditional-indonesian-bakso.jpg');
+  background-image: url("../images/home/composition-traditional-indonesian-bakso.jpg");
   background-position: center;
   background-size: cover;
   background-color: gray;
@@ -494,7 +885,7 @@ ul {
   font-size: 3rem;
 }
 .table-reservation .order p {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   padding-inline: 3rem;
   text-align: center;
   font-size: 1.25rem;
@@ -568,16 +959,13 @@ ul {
   z-index: 999;
   transition: color 0.3s ease-in-out;
 }
-.table-reservation .btn--secondary:hover,
-.table-reservation .btn--secondary:active {
+.table-reservation .btn--secondary:hover, .table-reservation .btn--secondary:active {
   color: var(--secondary-color);
 }
-.table-reservation .btn--secondary:hover .btn--secondary-icon,
-.table-reservation .btn--secondary:active .btn--secondary-icon {
+.table-reservation .btn--secondary:hover .btn--secondary-icon, .table-reservation .btn--secondary:active .btn--secondary-icon {
   width: calc(100% - 0.8rem);
 }
-.table-reservation .btn--secondary:hover .btn--secondary-text,
-.table-reservation .btn--secondary:active .btn--secondary-text {
+.table-reservation .btn--secondary:hover .btn--secondary-text, .table-reservation .btn--secondary:active .btn--secondary-text {
   color: var(--primary-color);
 }
 
@@ -605,7 +993,7 @@ ul {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   display: block;
   opacity: 0.4;
 }
@@ -652,22 +1040,22 @@ ul {
   margin-bottom: 1rem;
 }
 .latest-articles .article-one {
-  background-image: url('../images/home/article/articles-img-1.jpg');
+  background-image: url("../images/home/article/articles-img-1.jpg");
 }
 .latest-articles .article-two {
-  background-image: url('../images/home/article/articles-img-2.jpg');
+  background-image: url("../images/home/article/articles-img-2.jpg");
 }
 .latest-articles .article-three {
-  background-image: url('../images/home/article/articles-img-3.jpg');
+  background-image: url("../images/home/article/articles-img-3.jpg");
 }
 .latest-articles .article-four {
-  background-image: url('../images/home/article/articles-img-4.jpg');
+  background-image: url("../images/home/article/articles-img-4.jpg");
 }
 .latest-articles .article-five {
-  background-image: url('../images/home/article/articles-img-5.jpg');
+  background-image: url("../images/home/article/articles-img-5.jpg");
 }
 .latest-articles .article-six {
-  background-image: url('../images/home/article/articles-img-6.jpg');
+  background-image: url("../images/home/article/articles-img-6.jpg");
 }
 .latest-articles .article {
   background-position: center;
@@ -701,7 +1089,7 @@ ul {
   cursor: pointer;
 }
 .latest-articles .article-box h4 {
-  font-family: 'DM sans', sans-serif;
+  font-family: "DM sans", sans-serif;
   font-size: 1.2rem;
   margin-top: 0.3rem;
   color: var(--quaternary-color);
@@ -766,15 +1154,15 @@ ul {
   text-transform: capitalize;
   font-weight: 500;
   border-radius: 100px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   transition: all 0.5s;
   position: relative;
 }
 .about .section-content .about-content .primary-btn::before {
   background: #fff;
   border-radius: 50px;
-  content: '\f061';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   height: 56px;
   left: 0;
@@ -793,7 +1181,7 @@ ul {
 .about .section-content .about-content .primary-btn span {
   position: relative;
   z-index: 2;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
@@ -832,7 +1220,7 @@ ul {
   color: var(--secondary-color);
 }
 .about .section-content ul a {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -908,4 +1296,4 @@ ul {
   list-style-type: disc;
   padding-left: 0;
   margin-left: 1rem;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
