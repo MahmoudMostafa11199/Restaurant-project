@@ -46,7 +46,7 @@ function Home() {
                       <Link to="/">
                         <LazyLoad height={95} className="d-inline-block">
                           <img
-                            src="/images/home/play-btn-vector.png"
+                            src="/images/Home/play-btn-vector.png"
                             alt="Play btn"
                             data-aos="fade-up"
                             data-aos-duration="1200"
