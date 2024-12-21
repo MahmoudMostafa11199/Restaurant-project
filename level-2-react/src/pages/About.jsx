@@ -40,27 +40,27 @@ function About() {
           </div>
 
           <div className="row section-content">
-            <div className="col-md-5 about-img">
+            <div className="col-12 col-lg-6 mb-5 mb-md-0 text-center about-img">
               <LazyLoad height={500}>
                 <img
-                  src="/images/about-banner-img.png"
+                  src="/images/about/about-banner-img.png"
                   className="img-fluid"
                   alt="about-banner-img"
                 />
               </LazyLoad>
             </div>
-            <div className="col-md-6 ms-md-5 about-content position-relative">
-              <h6 className="title fw-medium">About Us</h6>
-              <h3 className="">
+            <div className="col-12 col-lg-6 ps-md-5 about-content position-relative">
+              <h6 className="title mb-3">About Us</h6>
+              <h3 className="mb-4">
                 Quality and Healthy Food is <span>Our Promise</span> to You
               </h3>
-              <p className="mt-4 text mb-2">
+              <p className="text">
                 Indulge in our commitment to quality and health with every bite
                 of our delicious food offerings, crafted with care and using
                 only the freshest ingredients to nourish your body and soul.
               </p>
 
-              <ul className="d-flex justify-content-between flex-wrap p-0 my-5 me-md-4">
+              <ul className="d-flex justify-content-between flex-wrap mb-5">
                 <Link to="/services" className="mb-2">
                   <FontAwesomeIcon
                     icon={faChevronRight}

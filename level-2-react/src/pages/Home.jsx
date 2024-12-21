@@ -48,6 +48,8 @@ function Home() {
                           <img
                             src="/images/home/play-btn-vector.png"
                             alt="Play btn"
+                            data-aos="fade-up"
+                            data-aos-duration="1200"
                           />
                         </LazyLoad>
                       </Link>

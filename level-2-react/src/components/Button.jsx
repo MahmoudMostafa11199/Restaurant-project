@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
-function Button({ btnType, linkTo, children }) {
+function Button({ btnType, linkTo, styles = '', children }) {
+  console.log(styles);
   if (btnType === 'primary')
     return (
-      <Link to="/" className="btn btn--primary ">
+      <Link to="/" className="btn btn--primary">
         {children}
       </Link>
     );
@@ -15,7 +16,8 @@ function Button({ btnType, linkTo, children }) {
     return (
       <Link
         to={linkTo}
-        className="btn btn--secondary"
+        className={`btn btn--secondary ${styles}`}
+        style={{ styles }}
         data-aos="fade-up"
         data-aos-duration="1200"
       >
@@ -31,6 +33,7 @@ function Button({ btnType, linkTo, children }) {
       <button
         type="submit"
         className="btn btn--secondary"
+        style={{ styles }}
         data-aos="fade-up"
         data-aos-duration="1200"
       >

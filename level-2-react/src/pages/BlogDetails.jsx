@@ -9,7 +9,7 @@ import BlogSidebar from '../components/Blog/BlogSidebar';
 import HeaderPage from '../components/HeaderPage';
 import Social from '../components/Social';
 
-import { getBlog } from '../utils/blog';
+import { getBlog } from '../utils/blogApi';
 
 function BlogDetails() {
   const { blogDetailsId } = useParams();
@@ -45,10 +45,10 @@ function BlogDetails() {
 
                 <div className="blog-meta mt-4 mb-4 d-flex align-items-center gap-5 flex-md-row flex-column">
                   <Link to="/">{blog.category}</Link>
-                  <Link to={blog.link} className="fs-4">
+                  <Link to={`/blog/${blog.id}`} className="fs-4">
                     <FontAwesomeIcon icon={faUser} /> {blog.author}
                   </Link>
-                  <Link to={blog.link} className="fs-4">
+                  <Link to={`/blog/${blog.id}`} className="fs-4">
                     <FontAwesomeIcon icon={faComments} /> Comments(
                     {blog.comments})
                   </Link>

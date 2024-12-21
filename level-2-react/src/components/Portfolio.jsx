@@ -112,7 +112,7 @@ function Portfolio() {
                 className="row isotope-container   aos-init aos-animate position-relative"
                 data-aos-delay="200"
               >
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="offer-lable">
                       <span>20% Off</span>
@@ -148,7 +148,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -180,7 +180,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -212,7 +212,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -244,7 +244,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -276,7 +276,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -308,7 +308,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -340,7 +340,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -372,7 +372,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -404,7 +404,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -436,7 +436,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -468,7 +468,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -500,7 +500,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -532,7 +532,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -564,7 +564,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -608,7 +608,7 @@ function Portfolio() {
                 className="row isotope-container   aos-init aos-animate position-relative"
                 data-aos-delay="200"
               >
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="offer-lable">
                       <span>20% Off</span>
@@ -644,7 +644,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -676,7 +676,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -708,7 +708,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -752,7 +752,7 @@ function Portfolio() {
                 className="row isotope-container   aos-init aos-animate position-relative"
                 data-aos-delay="200"
               >
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -784,7 +784,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -816,7 +816,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -848,7 +848,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -880,7 +880,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -924,7 +924,7 @@ function Portfolio() {
                 className="row isotope-container   aos-init aos-animate position-relative"
                 data-aos-delay="200"
               >
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -956,7 +956,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -988,7 +988,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -1032,7 +1032,7 @@ function Portfolio() {
                 className="row isotope-container   aos-init aos-animate position-relative"
                 data-aos-delay="200"
               >
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -1064,7 +1064,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>
@@ -1096,7 +1096,7 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-6 portfolio-item overflow-hidden mb-4">
+                <div className="col-md-4 col-6 portfolio-item overflow-hidden">
                   <div className="item-box-two d-flex position-relative overflow-hidden">
                     <div className="food-item">
                       <LazyLoad height={110}>

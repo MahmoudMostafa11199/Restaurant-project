@@ -1,8 +1,7 @@
 import LazyLoad from 'react-lazyload';
-import '../../styles/css/testominalSectionStyle.css';
 
 const Testimonials = () => (
-  <section>
+  <section className="testimonial">
     <div className="container">
       <div
         className="testimonial-container"
@@ -10,31 +9,33 @@ const Testimonials = () => (
         data-aos-duration="1200"
       >
         <div className="testimonial-content">
-          <h1>Testimonial</h1>
-          <div className="title-line"></div>
-          <h3>Restaurant Food</h3>
-          <LazyLoad height={50}>
-            <img
-              className="quote-icon"
-              src="/images/service/quote-icon.svg"
-              alt="Quote"
-            />
-          </LazyLoad>
-          <p>
-            Place your meal order online today and enjoy a special 10% discount
-            on your first purchase. Don't miss out on this exclusive offer!
-            Order now to save on your delicious meal.
-          </p>
-          <span className="testimonial-author">• Brooklyn Simmons</span>
+          <div className="py-4 px-5">
+            <h1>Testimonial</h1>
+            <div className="title-line"></div>
+            <h3>Restaurant Food</h3>
+            <LazyLoad height={50}>
+              <img
+                className="quote-icon"
+                src="/images/service/quote-icon.svg"
+                alt="Quote"
+              />
+            </LazyLoad>
+            <p>
+              Place your meal order online today and enjoy a special 10%
+              discount on your first purchase. Don't miss out on this exclusive
+              offer! Order now to save on your delicious meal.
+            </p>
+            <span className="testimonial-author">• Brooklyn Simmons</span>
+          </div>
         </div>
-        <div className="testimonial-image">
-          <LazyLoad height={380}>
-            <img
-              src="/images/service/testimonial-image.jpg"
-              alt="TestimonialImage"
-            />
-          </LazyLoad>
-        </div>
+
+        <LazyLoad height={380} className="testimonial-image">
+          <img
+            src="/images/service/testimonial-image.jpg"
+            alt="TestimonialImage"
+          />
+        </LazyLoad>
+
         <div className="testimonial-navigation">
           <button className="nav-btn nav-prev">
             <LazyLoad height={50}>

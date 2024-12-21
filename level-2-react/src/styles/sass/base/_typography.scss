@@ -30,6 +30,10 @@
     color: $primary-black;
     letter-spacing: 1px;
 
+    @media screen and (max-width: 62em) {
+      font-size: 4rem;
+    }
+
     @media screen and (max-width: 49em) {
       font-size: 3.6rem;
     }

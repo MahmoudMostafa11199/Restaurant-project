@@ -1,6 +1,4 @@
-// import LazyLoad from 'react-lazyload';
 import Button from '../Button';
-import '../../styles/css/discountSectionStyle.css';
 
 const DiscountSection = () => {
   return (
@@ -12,7 +10,7 @@ const DiscountSection = () => {
       <div className="container">
         <div className="row">
           {/* Left Image */}
-          <div className="col-12 col-lg-3 pe-0">
+          <div className="col-6 col-lg-3 pe-0">
             <div className="card card-image-left">
               <img
                 src="/images/service/background-image-left.avif"
@@ -22,7 +20,7 @@ const DiscountSection = () => {
           </div>
 
           {/* Right Image */}
-          <div className="col-12 col-lg-3 pe-0">
+          <div className="col-6 col-lg-3 pe-0">
             <div className="card card-image-right">
               <img
                 src="/images/service/background-image-right.png"

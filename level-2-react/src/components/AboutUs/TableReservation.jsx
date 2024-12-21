@@ -1,30 +1,28 @@
-import { Link } from 'react-router-dom';
 import LazyLoad from 'react-lazyload';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Button from '../Button';
 
 export const TableReservation = () => {
   return (
     <section className="table-reservation">
       <div className="container">
-        <div className="row title text-center mb-5">
-          <h2 className="fs-1 fw-bold">Table Reservation Now!</h2>
-        </div>
-        <div className="row mb-5 g-4">
-          <div className="col-lg-4 col-md-6 col-12">
-            <div className="time-table overflow-hidden w-100 h-100">
-              <LazyLoad height={500}>
-                <img
-                  src="/images/about/time-table.jpg"
-                  className="w-100 h-100 object-fit-fill"
-                  alt="Time Table"
-                />
-              </LazyLoad>
-            </div>
+        <div className="row mb-5 g-4 text-center">
+          <div className="col-12 col-lg-4 align-self-end">
+            <LazyLoad height={500} className="time-table overflow-hidden">
+              <img
+                src="/images/about/time-table.jpg"
+                className="mw-100 h-auto"
+                alt="Time Table"
+              />
+            </LazyLoad>
           </div>
-          <div className="col-lg-8 col-md-6 col-12">
+          <div className="col-12 col-lg-8 h-auto">
+            <div className="row text-md-start mb-5">
+              <h2 className="sub__heading sub__heading--large">
+                Table Reservation Now!
+              </h2>
+            </div>
             <div className="row mb-4 g-3">
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-sm-6">
                 <div className="menu-item">
                   <div className="overlay"></div>
                   <LazyLoad height={200}>
@@ -36,7 +34,7 @@ export const TableReservation = () => {
                   <h3>Paneer Jalfrezi - $20</h3>
                 </div>
               </div>
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-sm-6">
                 <div className="menu-item">
                   <div className="overlay"></div>
                   <LazyLoad height={250}>
@@ -59,9 +57,16 @@ export const TableReservation = () => {
                       alt="Paneer Jalfrezi"
                     />
                   </LazyLoad>
-                  {/* Button */}
 
-                  <Link
+                  {/* Button */}
+                  <Button
+                    btnType="secondary"
+                    linkTo="/"
+                    styles="position-absolute top-50 start-50 translate-middle"
+                  >
+                    Read More
+                  </Button>
+                  {/* <Link
                     to="/"
                     className="btn-4no custom-style"
                     onMouseOver={(e) =>
@@ -84,7 +89,7 @@ export const TableReservation = () => {
                       }}
                     />
                     <span>Read More</span>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

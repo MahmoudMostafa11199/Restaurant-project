@@ -2,7 +2,6 @@ import LazyLoad from 'react-lazyload';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments, faUser } from '@fortawesome/free-solid-svg-icons';
-import '../../styles/css/blogPostsStyle.css';
 
 import Button from '../Button';
 import BlogSidebar from './BlogSidebar';
@@ -30,10 +29,10 @@ export const BlogPosts = () => {
 
                 <div className="blog-meta mt-5 mb-4 d-flex align-items-center gap-5 flex-md-row flex-column">
                   <Link to="/">{post.category}</Link>
-                  <Link to={post.link} className="fs-4">
+                  <Link to={`/blog/${post.id}`} className="fs-4">
                     <FontAwesomeIcon icon={faUser} /> {post.author}
                   </Link>
-                  <Link to={post.link} className="fs-4">
+                  <Link to={`/blog/${post.id}`} className="fs-4">
                     <FontAwesomeIcon icon={faComments} /> Comments(
                     {post.comments})
                   </Link>
@@ -41,12 +40,12 @@ export const BlogPosts = () => {
 
                 <div className="card-body">
                   <h4 className="post-title">
-                    <Link to={post.link} className="post-title">
+                    <Link to={`/blog/${post.id}`} className="post-title">
                       {post.title}
                     </Link>
                   </h4>
                   <p className="mb-4">{post.description}</p>
-                  <Button btnType="secondary" linkTo={post.link}>
+                  <Button btnType="secondary" linkTo={`/blog/${post.id}`}>
                     Read More
                   </Button>
                 </div>
