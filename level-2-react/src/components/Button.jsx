@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function Button({ btnType, linkTo, styles = '', children }) {
-  console.log(styles);
   if (btnType === 'primary')
     return (
       <Link to="/" className="btn btn--primary">
