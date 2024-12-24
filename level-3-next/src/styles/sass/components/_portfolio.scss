@@ -1,0 +1,161 @@
+.portfolio {
+  .portfolio-area {
+    li {
+      button {
+        font-weight: 600;
+        border: 1px solid $primary-color; /* Red border by default */
+        color: $primary-color !important;
+        padding: 10px 20px; /* Adjust the padding to control the size */
+        border-radius: 50px;
+        transition: all 0.5s ease; /* Smooth transition for hover effect */
+        margin: 0 6px 8px 0;
+
+        &.active,
+        &:hover,
+        &:active {
+          color: white !important;
+          background-color: $primary-color !important;
+        }
+      }
+    }
+
+    .portfolio-item {
+      margin-bottom: 20px;
+
+      .item-box-two {
+        background-color: $bg-color;
+        border-radius: 20px;
+        padding: 30px 20px;
+        height: 100%;
+        align-items: center;
+        transition: all 0.5s;
+
+        @media (max-width: 1199.98px) {
+          padding: 20px 10px;
+        }
+
+        @media (max-width: 991.98px) {
+          padding: 15px 10px;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+        }
+
+        .offer-lable {
+          position: absolute;
+          top: 15px;
+          right: -26px;
+          transform: rotate(45deg);
+          background-color: #fff;
+          width: 115px;
+          text-align: center;
+
+          span {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 14px;
+            color: $primary-color;
+          }
+        }
+
+        .food-item {
+          max-width: 116px;
+          img {
+            max-width: 100%;
+
+            @media (max-width: 1199.98px) {
+              max-width: 100px;
+            }
+
+            @media (max-width: 767.98px) {
+              max-width: 80px;
+            }
+          }
+        }
+
+        .item-detail {
+          p {
+            font-size: 16px;
+            font-weight: 600;
+            color: #b28e6a;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            gap: 0.4rem;
+            margin: 0 0 5px 0;
+
+            @media (max-width: 1199.98px) {
+              font-size: 14px;
+            }
+
+            @media (max-width: 991.98px) {
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+            }
+          }
+
+          h3 {
+            font-size: 22px;
+            color: #000000;
+            transition: all 0.5s;
+
+            @media (max-width: 975px) {
+              font-size: 16px;
+            }
+          }
+
+          h4 {
+            font-size: 22px;
+            color: #534930;
+            transition: all 0.5s;
+          }
+          .plus-bg {
+            background-color: $secondary-color;
+            width: 25px;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.5s;
+
+            a {
+              color: $tertiary-color;
+              transition: all 0.2s;
+            }
+          }
+        }
+
+        &:hover {
+          color: $quaternary-color;
+          background-color: $primary-color;
+          .item-detail {
+            h3,
+            h4 {
+              color: $quaternary-color !important;
+            }
+
+            .plus-bg {
+              background-color: white !important  ;
+              a {
+                color: $tertiary-color;
+                transition: all 0.2s;
+                .icon-plus {
+                  color: $primary-black;
+                  font-size: 12px;
+                  transition: all 0.5s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

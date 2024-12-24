@@ -1,0 +1,144 @@
+.services {
+  & .discount-section {
+    margin-bottom: 30rem;
+    margin-top: 3%;
+
+    transform: translateY(30px);
+    animation: scroll-animation 5s linear infinite;
+
+    @media (max-width: 768px) {
+      margin-bottom: 40rem;
+    }
+
+    @media (max-width: 450px) {
+      margin-bottom: 55rem;
+
+      & .row {
+        flex-direction: column;
+
+        & > div {
+          width: 100%;
+        }
+      }
+    }
+
+    & .card-image-left,
+    & .card-image-right {
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+
+      @media (max-width: 1024px) {
+        height: 40rem;
+      }
+
+      @media (max-width: 450px) {
+        height: 20rem;
+        width: 100%;
+      }
+
+      & img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+        filter: brightness(0.6);
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.05);
+          filter: brightness(0.9);
+        }
+      }
+    }
+
+    & .card-image-left {
+      margin-top: 50%;
+    }
+
+    & .animated-image-left,
+    & .animated-image-right {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.8s ease-in-out;
+
+      &.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    & .discount-details {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 35px;
+      box-shadow: 0 4px 6px rgba($primary-black, 0.1);
+      width: 62%;
+      height: auto;
+      position: absolute;
+      top: 78%;
+      right: 1.6rem;
+      transform: translateY(-50%);
+
+      @media (max-width: 1024px) {
+        width: 80%;
+        top: 55rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      @media (max-width: 450px) {
+        top: 70rem;
+      }
+
+      & h3 {
+        color: $color-grey-dark;
+        text-align: left;
+        font-size: 48px;
+        font-weight: 600;
+        margin-bottom: 2rem;
+
+        @media (max-width: 1024px) {
+          font-size: 32px;
+        }
+
+        @media (max-width: 552px) {
+          font-size: 28px;
+        }
+
+        & span {
+          color: $secondary-color;
+          font-weight: 600;
+        }
+      }
+
+      & .description {
+        font-size: 22.8px;
+        font-weight: 400;
+        margin-bottom: 35px;
+      }
+      @media (max-width: 1024px) {
+        font-size: 16px;
+      }
+
+      @media (max-width: 552px) {
+        font-size: 14px;
+      }
+    }
+
+    & .title {
+      font-size: 20px;
+      font-weight: 600;
+      color: $secondary-color;
+
+      @media (max-width: 1024px) {
+        font-size: 16px;
+      }
+
+      @media (max-width: 552px) {
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+.testimonial {
+  &-container {
+    margin-inline: auto;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    margin-bottom: 1.6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    transform: translateY(30px);
+    animation: scroll-animation 5s linear infinite;
+
+    @media (max-width: 64em) {
+      flex-direction: column;
+      margin-top: 2em;
+      width: 85%;
+    }
+  }
+
+  &-content {
+    flex: 1;
+    text-align: center;
+
+    @media (max-width: 48em) {
+      & p {
+        font-size: 1.4rem;
+      }
+    }
+
+    & h1 {
+      font-size: 4rem;
+      margin-bottom: 0.5rem;
+      padding-top: 2rem;
+
+      @media (max-width: 64em) {
+        font-size: 2.8rem;
+      }
+    }
+
+    & .title-line {
+      width: 9rem;
+      height: 0.3rem;
+      background-color: $primary-color;
+      margin: 1rem auto 2rem;
+      border-radius: 2px;
+    }
+
+    & h3 {
+      font-size: 2rem;
+      margin-bottom: 2.5rem;
+      color: $primary-color;
+    }
+
+    & .quote-icon {
+      margin-bottom: 1.8rem;
+
+      @media (max-width: 34.5em) {
+        height: 24px;
+      }
+    }
+  }
+
+  &-image {
+    flex: 1;
+    height: 100%;
+
+    @media (max-width: 48em) {
+      height: 200px;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-author {
+    color: $secondary-color;
+    font-weight: 500;
+
+    @media (max-width: 34.5em) {
+      font-size: 16px;
+    }
+  }
+
+  &-navigation {
+    position: absolute;
+    bottom: 8%;
+    right: 44.2%;
+    display: flex;
+    gap: 1rem;
+    pointer-events: none;
+
+    @media (max-width: 64em) {
+      bottom: 1.6rem;
+      right: 1.6rem;
+    }
+
+    @media (max-width: 34.5em) {
+      gap: 15px;
+    }
+
+    & .nav-btn {
+      border: none;
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      pointer-events: all;
+
+      @media (max-width: 34.5em) {
+        width: 15px;
+        height: 15px;
+      }
+
+      & img {
+        height: 5rem;
+
+        @media (max-width: 34.5em) {
+          height: 30px;
+        }
+      }
+    }
+  }
+}

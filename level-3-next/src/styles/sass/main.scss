@@ -1,0 +1,35 @@
+@import 'abstract/variables';
+@import 'abstract/mixins';
+@import 'abstract/fonts';
+
+@import 'base/general';
+@import 'base/typography';
+@import 'base/utilities';
+@import 'base/animation';
+
+@import 'components/button';
+@import 'components/cta';
+@import 'components/comment';
+@import 'components/headerPage';
+@import 'components/logo';
+@import 'components/map';
+@import 'components/portfolio';
+@import 'components/service';
+@import 'components/testimonial';
+@import 'components/blogSidebar';
+@import 'components/social';
+@import 'components/spinnerPage';
+@import 'components/swiper';
+@import 'components/reservation';
+@import 'components/restaurant-video';
+@import 'components/articles';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/services';
+@import 'pages/blog';
+@import 'pages/blog-details';

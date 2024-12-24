@@ -1,0 +1,41 @@
+{
+  "name": "level-3-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:next": "next dev",
+    "watch:sass": "sass src/styles/sass/main.scss src/styles/css/global.css --watch",
+    "dev": "npm-run-all --parallel dev:next watch:sass",
+    "compile:sass": "sass src/styles/sass/main.scss src/styles/css/style.comp.css",
+    "prefex:css": "postcss src/styles/css/style.comp.css --use autoprefixer -b 'last 10 versions' -o src/styles/css/style.prefix.css",
+    "compress:css": "sass src/styles/css/style.prefix.css src/styles/css/global.css --style=compressed",
+    "build:css": "npm-run-all compile:sass prefex:css compress:css",
+    "build:next": "next build",
+    "build": "npm-run-all build:css build:next",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "next": "15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "aos": "^2.3.4",
+    "autoprefixer": "^10.4.20",
+    "bootstrap": "^5.3.3",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "formik": "^2.4.6",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^11.0.0",
+    "react-lazyload": "^3.2.1",
+    "sass": "^1.83.0",
+    "sweetalert2": "^11.15.3",
+    "swiper": "^11.1.15"
+  }
+}
