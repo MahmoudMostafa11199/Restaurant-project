@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -39,7 +38,7 @@ function Button({ btnType, linkTo, styles = '', children }) {
         <div className="btn--secondary-icon">
           <FontAwesomeIcon icon={faArrowRight} />
         </div>
-        <span className="btn--secondary-text"> {children} </span>
+        <span className="btn--secondary-text">{children}</span>
       </button>
     );
 }
