@@ -1,5 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { useParams } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faSearch,
@@ -8,6 +11,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 function BlogSidebar() {
+  const { blogDetailsId } = useParams();
+
   return (
     <aside className="col-lg-4 col-md-5">
       <div className="blog-sidebar">
@@ -102,7 +107,7 @@ function BlogSidebar() {
                 />
                 <div>
                   <Link
-                    href="/blog/blogDetailsId:1"
+                    href={`/blog/${blogDetailsId}`}
                     className="list-group-item-link bolder mb-3"
                   >
                     Delicious Cuisine: Savor Our Mouthwatering Culinary
@@ -127,7 +132,7 @@ function BlogSidebar() {
                 />
                 <div>
                   <Link
-                    href="/blog/blogDetailsId:1"
+                    href={`/blog/${blogDetailsId}`}
                     className="list-group-item-link bolder mb-3"
                   >
                     Delicious Cuisine: Savor Our Mouthwatering Culinary
@@ -152,7 +157,7 @@ function BlogSidebar() {
                 />
                 <div>
                   <Link
-                    href="/blog/blogDetailsId:1"
+                    href={`/blog/${blogDetailsId}`}
                     className="list-group-item-link bolder mb-3"
                   >
                     Delicious Cuisine: Savor Our Mouthwatering Culinary
@@ -177,7 +182,7 @@ function BlogSidebar() {
                 />
                 <div>
                   <Link
-                    href="/blog/blogDetailsId:1"
+                    href={`/blog/${blogDetailsId}`}
                     className="list-group-item-link bolder mb-3"
                   >
                     Delicious Cuisine: Savor Our Mouthwatering Culinary

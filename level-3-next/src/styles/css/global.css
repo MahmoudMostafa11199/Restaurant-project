@@ -70,6 +70,11 @@ textarea {
   color: #b28e6a;
   margin-bottom: 0;
 }
+@media screen and (max-width: 49em) {
+  .heading__secondary--small {
+    font-size: 1.8rem;
+  }
+}
 
 .sub__heading {
   font-weight: 500;
@@ -88,7 +93,7 @@ textarea {
 }
 @media screen and (max-width: 49em) {
   .sub__heading--large {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -833,12 +838,15 @@ textarea {
 .swiper-wrapper {
   transition-timing-function: linear !important;
   align-items: center;
-  gap: 9rem;
+  gap: 3rem;
+}
+.swiper-slide {
+  width: 20% !important;
 }
 .swiper-logo {
-  width: 16rem;
+  width: 100%;
   height: auto;
-  padding-inline: 1rem !important;
+  padding-inline: 2.4rem !important;
   opacity: 0.6;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -948,15 +956,6 @@ iframe {
 }
 .latest-articles .main-title {
   text-align: center;
-}
-.latest-articles .main-title h3 {
-  font-size: 2.375rem;
-  color: #b28e6a;
-  margin-bottom: 0;
-}
-.latest-articles .main-title h2 {
-  font-size: 4rem;
-  margin-bottom: 4rem;
 }
 .latest-articles .article {
   background-position: center;
@@ -1101,45 +1100,12 @@ iframe {
   padding-block: 96px 64px;
 }
 .home .portfolio-section .main-title-two {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   text-align: center;
 }
 @media (max-width: 1199.98px) {
   .home .portfolio-section .main-title-two {
-    margin-bottom: 50px;
     text-align: center;
-  }
-}
-@media (max-width: 991.98px) {
-  .home .portfolio-section .main-title-two {
-    margin-bottom: 40px;
-  }
-}
-@media (max-width: 767.98px) {
-  .home .portfolio-section .main-title-two {
-    margin-bottom: 30px;
-  }
-}
-.home .portfolio-section .main-title-two h3 {
-  text-align: center;
-  color: #b28e6a;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 29.4px;
-  text-transform: capitalize;
-  margin: 0 0 10px 0;
-  font-family: "DM Sans", sans-serif;
-}
-@media (max-width: 991.98px) {
-  .home .portfolio-section .main-title-two h3 {
-    font-size: 20px;
-    line-height: 24.4px;
-  }
-}
-@media (max-width: 767.98px) {
-  .home .portfolio-section .main-title-two h3 {
-    font-size: 18px;
-    line-height: 22.4px;
   }
 }
 .home .portfolio-section .main-title-two img {
@@ -1150,37 +1116,6 @@ iframe {
   margin: 0 auto;
   max-width: 100%;
   height: auto;
-}
-.home .portfolio-section .main-title-two h2 {
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 55.8px;
-  text-align: center;
-  text-transform: capitalize;
-}
-@media (max-width: 767.98px) {
-  .home .portfolio-section .main-title-two h2 {
-    font-size: 28px;
-    line-height: 31px;
-  }
-}
-@media (max-width: 767.98px) {
-  .home .portfolio-section .main-title-two h2 {
-    font-size: 28px;
-    line-height: 44px;
-  }
-}
-@media (max-width: 991.98px) {
-  .home .portfolio-section .main-title-two h2 {
-    font-size: 34px;
-    line-height: 42.8px;
-  }
-}
-@media (max-width: 1199.98px) {
-  .home .portfolio-section .main-title-two h2 {
-    font-size: 38px;
-    line-height: 46.8px;
-  }
 }
 .home .table-reservation {
   padding-block: 10rem;
@@ -1193,16 +1128,21 @@ iframe {
   width: 100px;
 }
 .home .table-reservation .order {
-  background-image: url("/public/images/composition-traditional-indonesian-bakso.jpg");
+  background: linear-gradient(to bottom left, #b28e6a, #534930);
+  background-image: url("/images/home/composition-traditional-indonesian-bakso.jpg");
   background-position: center;
   background-size: cover;
-  background-color: gray;
-  transition: 0.3s;
   background-blend-mode: multiply;
+  background-color: grey;
   background-repeat: no-repeat;
   border-radius: 5px;
   padding: 6rem 1rem;
   color: #ffffff;
+  transition: background-color 0.3s ease-in-out;
+}
+.home .table-reservation .order:hover {
+  background-color: rgba(128, 128, 128, 0.7);
+  background-blend-mode: multiply;
 }
 .home .table-reservation .order h3, .home .table-reservation .order h6 {
   color: #000000;
@@ -1231,10 +1171,6 @@ iframe {
   .home .table-reservation .order p {
     padding-inline: 3rem;
   }
-}
-.home .table-reservation .order:hover {
-  background-color: rgba(128, 128, 128, 0.7);
-  background-blend-mode: multiply;
 }
 .home .baner-header .food-experinse .hero .hero-Heading {
   background-color: #534930;
@@ -1804,7 +1740,7 @@ iframe {
 }
 .blog-card .card-img .img {
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   border-radius: 0.8rem;
   overflow: hidden;
   filter: opacity(0.5);

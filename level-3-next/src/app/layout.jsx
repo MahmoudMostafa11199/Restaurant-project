@@ -30,6 +30,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/*--------------------- ICON PAGE ---------------------*/}
+        <link rel="icon" href="/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
+      </head>
+
       <body>
         {/* active aos */}
         <AosComponent />
