@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import { useEffect } from 'react';
 
-import Logo from '../../components/Logo';
-import Social from '../../components/Social';
+import Logo from '@/components/Logo';
+import Social from '@/components/Social';
 
 function Header() {
   useEffect(() => {

@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
+import FramerAnimated from './FramerAnimated';
+
 function Button({ btnType, linkTo, styles = '', children }) {
   if (btnType === 'primary')
     return (
@@ -16,8 +18,6 @@ function Button({ btnType, linkTo, styles = '', children }) {
         href={linkTo}
         className={`btn btn--secondary ${styles}`}
         style={{ styles }}
-        data-aos="fade-up"
-        data-aos-duration="1200"
       >
         <div className="btn--secondary-icon">
           <FontAwesomeIcon icon={faArrowRight} />
@@ -28,18 +28,14 @@ function Button({ btnType, linkTo, styles = '', children }) {
 
   if (btnType === 'secondary')
     return (
-      <button
-        type="submit"
-        className="btn btn--secondary"
-        style={{ styles }}
-        data-aos="fade-up"
-        data-aos-duration="1200"
-      >
-        <div className="btn--secondary-icon">
-          <FontAwesomeIcon icon={faArrowRight} />
-        </div>
-        <span className="btn--secondary-text">{children}</span>
-      </button>
+      <FramerAnimated direction="up">
+        <button type="submit" className="btn btn--secondary" style={{ styles }}>
+          <div className="btn--secondary-icon">
+            <FontAwesomeIcon icon={faArrowRight} />
+          </div>
+          <span className="btn--secondary-text">{children}</span>
+        </button>
+      </FramerAnimated>
     );
 }
 

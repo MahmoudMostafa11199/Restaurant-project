@@ -6,8 +6,8 @@ import {
   faLocationDot,
 } from '@fortawesome/free-solid-svg-icons';
 
-import Logo from '../../components/Logo';
-import Social from '../../components/Social';
+import Logo from '@/components/Logo';
+import Social from '@/components/Social';
 
 function Footer() {
   return (

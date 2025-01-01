@@ -1,8 +1,11 @@
 .testimonial {
+  padding-block: 6.4rem;
+
   &-container {
     margin-inline: auto;
     background-color: #f9f9f9;
     border-radius: 1rem;
+    overflow: hidden;
     margin-bottom: 1.6rem;
 
     display: flex;
@@ -90,39 +93,29 @@
   &-navigation {
     position: absolute;
     bottom: 8%;
-    right: 44.2%;
+    right: 50%;
+    transform: translateX(50%);
     display: flex;
-    gap: 1rem;
     pointer-events: none;
 
     @media (max-width: 64em) {
       bottom: 1.6rem;
-      right: 1.6rem;
+      right: 6.4rem;
     }
 
     @media (max-width: 34.5em) {
-      gap: 15px;
+      right: 4rem;
     }
 
     & .nav-btn {
       border: none;
-      width: 4rem;
-      height: 4rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      padding: 0;
       pointer-events: all;
 
-      @media (max-width: 34.5em) {
-        width: 15px;
-        height: 15px;
-      }
-
       & img {
-        height: 5rem;
-
         @media (max-width: 34.5em) {
-          height: 30px;
+          width: 3rem;
+          height: 3rem;
         }
       }
     }

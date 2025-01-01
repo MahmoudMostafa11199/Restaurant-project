@@ -60,21 +60,6 @@
           }
         }
 
-        .food-item {
-          max-width: 116px;
-          img {
-            max-width: 100%;
-
-            @media (max-width: 1199.98px) {
-              max-width: 100px;
-            }
-
-            @media (max-width: 767.98px) {
-              max-width: 80px;
-            }
-          }
-        }
-
         .item-detail {
           p {
             font-size: 16px;
