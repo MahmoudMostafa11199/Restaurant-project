@@ -10,10 +10,7 @@
   & .comment {
     margin-bottom: 2.8rem;
     padding-bottom: 2.8rem;
-
-    &:not(:last-child) {
-      border-bottom: 1px solid $tertiary-gray;
-    }
+    border-bottom: 1px solid $tertiary-gray;
 
     & img {
       width: 5rem;

@@ -7,8 +7,8 @@ function Logo() {
       <Image
         src="/images/the-cafika-logos.png"
         alt="Kafika logo"
-        width={200}
-        height={200}
+        width={180}
+        height={100}
       />
     </Link>
   );

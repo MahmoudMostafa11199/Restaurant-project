@@ -1,38 +1,21 @@
-.latest-articles {
+.article {
   padding-block: 6em;
 
-  .main-title {
-    text-align: center;
-
-    h3 {
-      font-size: 2.375rem;
-      color: $secondary-color;
-      margin-bottom: 0;
-    }
-
-    h2 {
-      font-size: 4rem;
-      margin-bottom: 4rem;
-    }
-  }
-
-  .article {
+  &-item {
+    height: 40rem;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(94, 93, 93, 0.664);
     background-blend-mode: multiply;
-    background-size: cover;
-    border-radius: 10px;
-  }
-
-  .article-box {
-    height: 40rem;
-    display: flex;
+    color: $quaternary-color;
     padding: 2.25rem 2.5rem;
+    border-radius: 10px;
+    display: flex;
     justify-content: end;
     align-items: start;
     flex-direction: column;
-    color: $quaternary-color;
+    overflow: hidden;
     position: relative;
 
     &::before {
@@ -49,39 +32,32 @@
         rgba(#fff, 0.1)
       );
     }
+  }
 
-    & * {
-      z-index: 99;
-    }
+  & * {
+    z-index: 99;
+  }
 
-    .article-tag {
-      color: $primary-color;
-      background-color: $quaternary-color;
-      padding: 0.4rem 1rem 0.2rem 1rem;
-      border-radius: 20px;
-      margin-right: 1rem;
-      font-size: 1.5rem;
-      font-weight: 600;
-      transition: 0.3s;
-    }
+  &-tag {
+    color: $primary-color;
+    background-color: $quaternary-color;
+    padding: 0.4rem 1rem 0.2rem 1rem;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
 
-    .article-tag:hover {
+    &:hover {
       color: $text-hover-color;
-      cursor: pointer;
     }
+  }
 
-    h4 {
-      font-size: 1.9rem;
-      margin-top: 0.3rem;
-      color: $quaternary-color;
-    }
+  &-date {
+    font-size: $default-font-size;
+  }
 
-    .article-title {
-      h3 {
-        font-size: 2.5rem;
-        color: $quaternary-color;
-        margin-top: 0.5rem;
-      }
-    }
+  &-title {
+    font-size: 2.4rem;
   }
 }

@@ -5,6 +5,10 @@
 
   &--primary {
     padding: 0.6rem 2.6rem;
+
+    @media screen and (max-width: 49em) {
+      padding: 0.6rem 1.6rem;
+    }
   }
 
   @media screen and (max-width: 49em) {
